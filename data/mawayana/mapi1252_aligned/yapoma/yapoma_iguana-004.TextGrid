@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 0.911995
+tiers? <exists> 
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "ORT-MAU"
+        xmin = 0
+        xmax = 0.911995
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.030000
+            text = ""
+        intervals [2]:
+            xmin = 0.030000
+            xmax = 0.790000
+            text = "kachïɓi"
+        intervals [3]:
+            xmin = 0.790000
+            xmax = 0.911995
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "KAN-MAU"
+        xmin = 0
+        xmax = 0.911995
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.030000
+            text = ""
+        intervals [2]:
+            xmin = 0.030000
+            xmax = 0.790000
+            text = "k a tS 1 b_< i"
+        intervals [3]:
+            xmin = 0.790000
+            xmax = 0.911995
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "MAU"
+        xmin = 0
+        xmax = 0.911995
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.030000
+            text = "(...)"
+        intervals [2]:
+            xmin = 0.030000
+            xmax = 0.140000
+            text = "k"
+        intervals [3]:
+            xmin = 0.140000
+            xmax = 0.190000
+            text = "a"
+        intervals [4]:
+            xmin = 0.190000
+            xmax = 0.410000
+            text = "tʃ"
+        intervals [5]:
+            xmin = 0.410000
+            xmax = 0.510000
+            text = "ɨ"
+        intervals [6]:
+            xmin = 0.510000
+            xmax = 0.610000
+            text = "ɓ"
+        intervals [7]:
+            xmin = 0.610000
+            xmax = 0.790000
+            text = "i"
+        intervals [8]:
+            xmin = 0.790000
+            xmax = 0.911995
+            text = "(...)"

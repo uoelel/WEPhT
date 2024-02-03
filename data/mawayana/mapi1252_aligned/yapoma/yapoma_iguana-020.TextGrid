@@ -1,0 +1,118 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.168005
+tiers? <exists> 
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "ORT-MAU"
+        xmin = 0
+        xmax = 1.168005
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.080000
+            text = ""
+        intervals [2]:
+            xmin = 0.080000
+            xmax = 0.440000
+            text = "ʄimaɗa"
+        intervals [3]:
+            xmin = 0.440000
+            xmax = 0.930000
+            text = "yaɗakwa"
+        intervals [4]:
+            xmin = 0.930000
+            xmax = 1.168005
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "KAN-MAU"
+        xmin = 0
+        xmax = 1.168005
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.080000
+            text = ""
+        intervals [2]:
+            xmin = 0.080000
+            xmax = 0.440000
+            text = "J\_< i m a d_< a"
+        intervals [3]:
+            xmin = 0.440000
+            xmax = 0.930000
+            text = "j a d_< a k w a"
+        intervals [4]:
+            xmin = 0.930000
+            xmax = 1.168005
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "MAU"
+        xmin = 0
+        xmax = 1.168005
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.080000
+            text = "(...)"
+        intervals [2]:
+            xmin = 0.080000
+            xmax = 0.140000
+            text = "ʄ"
+        intervals [3]:
+            xmin = 0.140000
+            xmax = 0.190000
+            text = "i"
+        intervals [4]:
+            xmin = 0.190000
+            xmax = 0.290000
+            text = "m"
+        intervals [5]:
+            xmin = 0.290000
+            xmax = 0.380000
+            text = "a"
+        intervals [6]:
+            xmin = 0.380000
+            xmax = 0.410000
+            text = "ɗ"
+        intervals [7]:
+            xmin = 0.410000
+            xmax = 0.440000
+            text = "a"
+        intervals [8]:
+            xmin = 0.440000
+            xmax = 0.530000
+            text = "j"
+        intervals [9]:
+            xmin = 0.530000
+            xmax = 0.570000
+            text = "a"
+        intervals [10]:
+            xmin = 0.570000
+            xmax = 0.620000
+            text = "ɗ"
+        intervals [11]:
+            xmin = 0.620000
+            xmax = 0.740000
+            text = "a"
+        intervals [12]:
+            xmin = 0.740000
+            xmax = 0.840000
+            text = "k"
+        intervals [13]:
+            xmin = 0.840000
+            xmax = 0.900000
+            text = "w"
+        intervals [14]:
+            xmin = 0.900000
+            xmax = 0.930000
+            text = "a"
+        intervals [15]:
+            xmin = 0.930000
+            xmax = 1.168005
+            text = "(...)"

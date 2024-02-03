@@ -1,0 +1,134 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.311995
+tiers? <exists> 
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "ORT-MAU"
+        xmin = 0
+        xmax = 1.311995
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.080000
+            text = ""
+        intervals [2]:
+            xmin = 0.080000
+            xmax = 0.280000
+            text = "che"
+        intervals [3]:
+            xmin = 0.280000
+            xmax = 0.520000
+            text = "che"
+        intervals [4]:
+            xmin = 0.520000
+            xmax = 0.630000
+            text = ""
+        intervals [5]:
+            xmin = 0.630000
+            xmax = 0.800000
+            text = "ka"
+        intervals [6]:
+            xmin = 0.800000
+            xmax = 1.180000
+            text = "chiko"
+        intervals [7]:
+            xmin = 1.180000
+            xmax = 1.311995
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "KAN-MAU"
+        xmin = 0
+        xmax = 1.311995
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.080000
+            text = ""
+        intervals [2]:
+            xmin = 0.080000
+            xmax = 0.280000
+            text = "tS e"
+        intervals [3]:
+            xmin = 0.280000
+            xmax = 0.520000
+            text = "tS e"
+        intervals [4]:
+            xmin = 0.520000
+            xmax = 0.630000
+            text = ""
+        intervals [5]:
+            xmin = 0.630000
+            xmax = 0.800000
+            text = "k a"
+        intervals [6]:
+            xmin = 0.800000
+            xmax = 1.180000
+            text = "tS i k o"
+        intervals [7]:
+            xmin = 1.180000
+            xmax = 1.311995
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "MAU"
+        xmin = 0
+        xmax = 1.311995
+        intervals: size = 13
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.080000
+            text = "(...)"
+        intervals [2]:
+            xmin = 0.080000
+            xmax = 0.130000
+            text = "tʃ"
+        intervals [3]:
+            xmin = 0.130000
+            xmax = 0.280000
+            text = "e"
+        intervals [4]:
+            xmin = 0.280000
+            xmax = 0.350000
+            text = "tʃ"
+        intervals [5]:
+            xmin = 0.350000
+            xmax = 0.520000
+            text = "e"
+        intervals [6]:
+            xmin = 0.520000
+            xmax = 0.630000
+            text = "(...)"
+        intervals [7]:
+            xmin = 0.630000
+            xmax = 0.720000
+            text = "k"
+        intervals [8]:
+            xmin = 0.720000
+            xmax = 0.800000
+            text = "a"
+        intervals [9]:
+            xmin = 0.800000
+            xmax = 0.930000
+            text = "tʃ"
+        intervals [10]:
+            xmin = 0.930000
+            xmax = 1.010000
+            text = "i"
+        intervals [11]:
+            xmin = 1.010000
+            xmax = 1.070000
+            text = "k"
+        intervals [12]:
+            xmin = 1.070000
+            xmax = 1.180000
+            text = "o"
+        intervals [13]:
+            xmin = 1.180000
+            xmax = 1.311995
+            text = "(...)"

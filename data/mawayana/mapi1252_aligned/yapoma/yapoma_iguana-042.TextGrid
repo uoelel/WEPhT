@@ -1,0 +1,146 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.456009
+tiers? <exists> 
+size = 3
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "ORT-MAU"
+        xmin = 0
+        xmax = 1.456009
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.100000
+            text = ""
+        intervals [2]:
+            xmin = 0.100000
+            xmax = 0.650000
+            text = "nkataɓei"
+        intervals [3]:
+            xmin = 0.650000
+            xmax = 0.880000
+            text = "kïrei"
+        intervals [4]:
+            xmin = 0.880000
+            xmax = 1.300000
+            text = "nwïnï"
+        intervals [5]:
+            xmin = 1.300000
+            xmax = 1.456009
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "KAN-MAU"
+        xmin = 0
+        xmax = 1.456009
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.100000
+            text = ""
+        intervals [2]:
+            xmin = 0.100000
+            xmax = 0.650000
+            text = "n k a t a b_< e i"
+        intervals [3]:
+            xmin = 0.650000
+            xmax = 0.880000
+            text = "k 1 4 e i"
+        intervals [4]:
+            xmin = 0.880000
+            xmax = 1.300000
+            text = "n w 1 n 1"
+        intervals [5]:
+            xmin = 1.300000
+            xmax = 1.456009
+            text = ""
+    item [3]:
+        class = "IntervalTier"
+        name = "MAU"
+        xmin = 0
+        xmax = 1.456009
+        intervals: size = 20
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.100000
+            text = "(...)"
+        intervals [2]:
+            xmin = 0.100000
+            xmax = 0.160000
+            text = "n"
+        intervals [3]:
+            xmin = 0.160000
+            xmax = 0.230000
+            text = "k"
+        intervals [4]:
+            xmin = 0.230000
+            xmax = 0.330000
+            text = "a"
+        intervals [5]:
+            xmin = 0.330000
+            xmax = 0.420000
+            text = "t"
+        intervals [6]:
+            xmin = 0.420000
+            xmax = 0.460000
+            text = "a"
+        intervals [7]:
+            xmin = 0.460000
+            xmax = 0.510000
+            text = "ɓ"
+        intervals [8]:
+            xmin = 0.510000
+            xmax = 0.590000
+            text = "e"
+        intervals [9]:
+            xmin = 0.590000
+            xmax = 0.650000
+            text = "i"
+        intervals [10]:
+            xmin = 0.650000
+            xmax = 0.680000
+            text = "k"
+        intervals [11]:
+            xmin = 0.680000
+            xmax = 0.750000
+            text = "ɨ"
+        intervals [12]:
+            xmin = 0.750000
+            xmax = 0.800000
+            text = "ɾ"
+        intervals [13]:
+            xmin = 0.800000
+            xmax = 0.840000
+            text = "e"
+        intervals [14]:
+            xmin = 0.840000
+            xmax = 0.880000
+            text = "i"
+        intervals [15]:
+            xmin = 0.880000
+            xmax = 0.910000
+            text = "n"
+        intervals [16]:
+            xmin = 0.910000
+            xmax = 1.040000
+            text = "w"
+        intervals [17]:
+            xmin = 1.040000
+            xmax = 1.070000
+            text = "ɨ"
+        intervals [18]:
+            xmin = 1.070000
+            xmax = 1.100000
+            text = "n"
+        intervals [19]:
+            xmin = 1.100000
+            xmax = 1.300000
+            text = "ɨ"
+        intervals [20]:
+            xmin = 1.300000
+            xmax = 1.456009
+            text = "(...)"
