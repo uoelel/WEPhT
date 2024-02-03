@@ -1,0 +1,18 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.848 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "380219" 
+        xmin = 0 
+        xmax = 2.848 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.848 
+            text = "kuendesha operesheni zao za bahari " 
