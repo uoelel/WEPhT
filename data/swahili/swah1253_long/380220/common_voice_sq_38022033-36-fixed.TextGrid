@@ -11,7 +11,7 @@ item []:
         name = "silences" 
         xmin = 0 
         xmax = 22.277875 
-        intervals: size = 11 
+        intervals: size = 9 
         intervals [1]:
             xmin = 0 
             xmax = 0.7069375000000003 
@@ -42,17 +42,9 @@ item []:
             text = "silent" 
         intervals [8]:
             xmin = 17.3709375 
-            xmax = 20.4269375 
-            text = "sounding" 
-        intervals [9]:
-            xmin = 20.4269375 
-            xmax = 20.5309375 
-            text = "silent" 
-        intervals [10]:
-            xmin = 20.5309375 
             xmax = 21.290937500000002 
             text = "sounding" 
-        intervals [11]:
+        intervals [9]:
             xmin = 21.290937500000002 
             xmax = 22.277875 
             text = "silent" 

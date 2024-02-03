@@ -1,4 +1,4 @@
-raw$ = "../data/swahili/raw"
+raw$ = "../data/swahili/swah1253_long"
 
 dirs = Create Strings as directory list: "dir_list", raw$
 dirs_n = Get number of strings

@@ -1,5 +1,5 @@
-raw$ = "../data/swahili/raw"
-derived$ = "../data/swahili/derived"
+raw$ = "../data/swahili/swah1253_long"
+derived$ = "../data/swahili/swah1253"
 createFolder: derived$
 
 dirs = Create Strings as directory list: "dir_list", raw$

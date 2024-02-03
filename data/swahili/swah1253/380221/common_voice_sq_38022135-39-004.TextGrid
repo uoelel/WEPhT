@@ -2,17 +2,17 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 3.912 
+xmax = 5.47203125 
 tiers? <exists> 
 size = 1 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "380219" 
+        name = "380221" 
         xmin = 0 
-        xmax = 3.912 
+        xmax = 5.47203125 
         intervals: size = 1 
         intervals [1]:
             xmin = 0 
-            xmax = 3.912 
-            text = "kampala city akwa na jamhuri ya kidemokrasia ya kongo " 
+            xmax = 5.47203125 
+            text = "boti hiyo ya kamati wakiti wanapendelea suala hilo lipelekwe ngazi ya juu zaidi " 

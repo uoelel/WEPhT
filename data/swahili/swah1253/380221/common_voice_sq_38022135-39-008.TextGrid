@@ -1,0 +1,18 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 5.23203125 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "380221" 
+        xmin = 0 
+        xmax = 5.23203125 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 5.23203125 
+            text = "silaha ambayo yanaongeza mvutano ndani na kuzunguka tripoli " 

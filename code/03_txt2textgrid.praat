@@ -1,4 +1,4 @@
-derived$ = "../data/swahili/derived"
+derived$ = "../data/swahili/swah1253"
 
 dirs = Create Strings as directory list: "dir_list", derived$
 dirs_n = Get number of strings
@@ -7,8 +7,6 @@ dirs_n = Get number of strings
 for dir from 1 to dirs_n
   selectObject: dirs
   dir$ = Get string: dir
-
-  createFolder: "'derived$'/'dir$'"
 
   files = Create Strings as file list: "file_list", "'derived$'/'dir$'/*.txt"
   files_n = Get number of strings
