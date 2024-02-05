@@ -1,0 +1,90 @@
+inputfile,outputfile,vowel,interval,duration,start,end,previous_sound,next_sound,omit,word,word_interval,word_start,word_end,previous_word,next_word,comment1
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0001,ɑ,3,0.098,0.116,0.214,k,m,0,kampala,2,0.079,0.973,-,city,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0002,ɑ,6,0.37,0.391,0.761,p,l,0,kampala,2,0.079,0.973,-,city,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0003,ɑ,8,0.086,0.887,0.973,l,s,0,kampala,2,0.079,0.973,-,city,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0004,i,10,0.0700000000000001,1.037,1.107,s,t,0,city,3,0.973,1.203,kampala,akuna,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0005,i,12,0.03,1.173,1.203,t,spn,0,city,3,0.973,1.203,kampala,akuna,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0006,ɑ,15,0.0700000000000001,1.911,1.981,dʒ,m,0,jamhuri,5,1.869,2.271,akuna,ya,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0007,u,18,0.0820000000000003,2.131,2.213,h,ɾ,0,jamhuri,5,1.869,2.271,akuna,ya,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,--,i,20,0.0299999999999998,2.241,2.271,ɾ,j,1,jamhuri,5,1.869,2.271,akuna,ya,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0008,ɑ,22,0.0409999999999999,2.301,2.342,j,k,0,ya,6,2.271,2.342,jamhuri,kidemokrasia,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0009,i,24,0.036,2.427,2.463,k,ɗ,0,kidemokrasia,7,2.342,3.113,ya,ya,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0010,ɛ,26,0.048,2.493,2.541,ɗ,m,0,kidemokrasia,7,2.342,3.113,ya,ya,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0011,ɔ,28,0.0619999999999998,2.607,2.669,m,k,0,kidemokrasia,7,2.342,3.113,ya,ya,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0012,ɑ,31,0.0620000000000003,2.791,2.853,ɾ,s,0,kidemokrasia,7,2.342,3.113,ya,ya,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0013,i,33,0.0739999999999998,3.003,3.077,s,ɑ,0,kidemokrasia,7,2.342,3.113,ya,ya,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0014,ɑ,34,0.036,3.077,3.113,i,j,0,kidemokrasia,7,2.342,3.113,ya,ya,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0015,ɑ,36,0.0659999999999998,3.213,3.279,j,k,0,ya,8,3.113,3.279,kidemokrasia,kongo,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0016,ɔ,38,0.13,3.427,3.557,k,ŋ,0,kongo,9,3.279,3.791,ya,-,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-002,common_voice_sw_38021900-04-002_0017,ɔ,41,0.102,3.689,3.791,ɡ,-,0,kongo,9,3.279,3.791,ya,-,kampala city akuna jamhuri ya kidemokrasia ya kongo
+common_voice_sw_38021900-04-004,common_voice_sw_38021900-04-004_0001,ɑ,3,0.06,0.201,0.261,w,k,0,wakati,2,0.069,0.573,-,upande,wakati upande madhehebu ya wasuni
+common_voice_sw_38021900-04-004,common_voice_sw_38021900-04-004_0002,ɑ,5,0.11,0.356,0.466,k,t,0,wakati,2,0.069,0.573,-,upande,wakati upande madhehebu ya wasuni
+common_voice_sw_38021900-04-004,common_voice_sw_38021900-04-004_0003,i,7,0.0399999999999999,0.533,0.573,t,u,0,wakati,2,0.069,0.573,-,upande,wakati upande madhehebu ya wasuni
+common_voice_sw_38021900-04-004,common_voice_sw_38021900-04-004_0004,u,8,0.0840000000000001,0.573,0.657,i,p,0,upande,3,0.573,0.967,wakati,madhehebu,wakati upande madhehebu ya wasuni
+common_voice_sw_38021900-04-004,common_voice_sw_38021900-04-004_0005,ɑ,10,0.102,0.721,0.823,p,n,0,upande,3,0.573,0.967,wakati,madhehebu,wakati upande madhehebu ya wasuni
+common_voice_sw_38021900-04-004,common_voice_sw_38021900-04-004_0006,ɛ,13,0.072,0.895,0.967,d,m,0,upande,3,0.573,0.967,wakati,madhehebu,wakati upande madhehebu ya wasuni
+common_voice_sw_38021900-04-004,common_voice_sw_38021900-04-004_0007,ɑ,15,0.077,1.046,1.123,m,ð,0,madhehebu,4,0.967,1.541,upande,ya,wakati upande madhehebu ya wasuni
+common_voice_sw_38021900-04-004,common_voice_sw_38021900-04-004_0008,ɛ,17,0.0450000000000002,1.194,1.239,ð,h,0,madhehebu,4,0.967,1.541,upande,ya,wakati upande madhehebu ya wasuni
+common_voice_sw_38021900-04-004,common_voice_sw_38021900-04-004_0009,ɛ,19,0.108,1.321,1.429,h,ɓ,0,madhehebu,4,0.967,1.541,upande,ya,wakati upande madhehebu ya wasuni
+common_voice_sw_38021900-04-004,common_voice_sw_38021900-04-004_0010,u,21,0.0439999999999998,1.497,1.541,ɓ,j,0,madhehebu,4,0.967,1.541,upande,ya,wakati upande madhehebu ya wasuni
+common_voice_sw_38021900-04-004,common_voice_sw_38021900-04-004_0011,ɑ,23,0.178,1.653,1.831,j,-,0,ya,5,1.541,1.831,madhehebu,-,wakati upande madhehebu ya wasuni
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0001,ɑ,4,0.0479999999999999,0.641,0.689,m,h,0,mahusiano,3,0.609,1.249,nilikata,ya,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0002,u,6,0.044,0.761,0.805,h,s,0,mahusiano,3,0.609,1.249,nilikata,ya,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0003,i,8,0.068,0.963,1.031,s,ɑ,0,mahusiano,3,0.609,1.249,nilikata,ya,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0004,ɑ,9,0.0860000000000001,1.031,1.117,i,n,0,mahusiano,3,0.609,1.249,nilikata,ya,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0005,ɔ,11,0.0880000000000001,1.161,1.249,n,j,0,mahusiano,3,0.609,1.249,nilikata,ya,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0006,ɑ,13,0.032,1.261,1.293,j,k,0,ya,4,1.249,1.293,mahusiano,kidiplomasia,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0007,i,15,0.048,1.381,1.429,k,ɗ,0,kidiplomasia,5,1.293,2.191,ya,mwaka,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0008,i,17,0.0459999999999998,1.487,1.533,ɗ,p,0,kidiplomasia,5,1.293,2.191,ya,mwaka,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0009,ɔ,20,0.0879999999999999,1.711,1.799,l,m,0,kidiplomasia,5,1.293,2.191,ya,mwaka,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0010,ɑ,22,0.089,1.853,1.942,m,s,0,kidiplomasia,5,1.293,2.191,ya,mwaka,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0011,i,24,0.0609999999999999,2.075,2.136,s,ɑ,0,kidiplomasia,5,1.293,2.191,ya,mwaka,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0012,ɑ,25,0.0549999999999997,2.136,2.191,i,m,0,kidiplomasia,5,1.293,2.191,ya,mwaka,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,common_voice_sw_38021900-04-006_0013,ɑ,28,0.0620000000000003,2.291,2.353,w,k,0,mwaka,6,2.191,2.441,kidiplomasia,2016,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-006,--,ɑ,30,0.024,2.417,2.441,k,spn,1,mwaka,6,2.191,2.441,kidiplomasia,2016,nilikata mahusiano ya kidiplomasia mwaka 2016
+common_voice_sw_38021900-04-008,--,ɑ,3,0.03,0.381,0.411,h,w,1,hawawezi,2,0.369,0.836,-,kuendelea,hawawezi kuendelea
+common_voice_sw_38021900-04-008,common_voice_sw_38021900-04-008_0001,ɑ,5,0.038,0.473,0.511,w,w,0,hawawezi,2,0.369,0.836,-,kuendelea,hawawezi kuendelea
+common_voice_sw_38021900-04-008,common_voice_sw_38021900-04-008_0003,i,9,0.069,0.767,0.836,z,k,0,hawawezi,2,0.369,0.836,-,kuendelea,hawawezi kuendelea
+common_voice_sw_38021900-04-008,common_voice_sw_38021900-04-008_0004,u,11,0.0619999999999999,0.939,1.001,k,ɛ,0,kuendelea,3,0.836,1.601,hawawezi,-,hawawezi kuendelea
+common_voice_sw_38021900-04-008,common_voice_sw_38021900-04-008_0005,ɛ,12,0.042,1.001,1.043,u,n,0,kuendelea,3,0.836,1.601,hawawezi,-,hawawezi kuendelea
+common_voice_sw_38021900-04-008,common_voice_sw_38021900-04-008_0006,ɛ,15,0.0940000000000001,1.133,1.227,d,l,0,kuendelea,3,0.836,1.601,hawawezi,-,hawawezi kuendelea
+common_voice_sw_38021900-04-008,common_voice_sw_38021900-04-008_0007,ɛ,17,0.172,1.281,1.453,l,ɑ,0,kuendelea,3,0.836,1.601,hawawezi,-,hawawezi kuendelea
+common_voice_sw_38021900-04-008,common_voice_sw_38021900-04-008_0008,ɑ,18,0.148,1.453,1.601,ɛ,-,0,kuendelea,3,0.836,1.601,hawawezi,-,hawawezi kuendelea
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0001,u,3,0.054,0.127,0.181,k,ɛ,0,kuendesha,2,0.069,0.673,-,operesheni,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0002,ɛ,4,0.106,0.181,0.287,u,n,0,kuendesha,2,0.069,0.673,-,operesheni,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0003,ɛ,7,0.106,0.373,0.479,d,ʃ,0,kuendesha,2,0.069,0.673,-,operesheni,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0004,ɑ,9,0.0860000000000001,0.587,0.673,ʃ,ɔ,0,kuendesha,2,0.069,0.673,-,operesheni,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0005,ɔ,10,0.084,0.673,0.757,ɑ,p,0,operesheni,3,0.673,1.337,kuendesha,zao,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0006,ɛ,12,0.0780000000000001,0.813,0.891,p,ɾ,0,operesheni,3,0.673,1.337,kuendesha,zao,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0007,ɛ,14,0.108,0.931,1.039,ɾ,ʃ,0,operesheni,3,0.673,1.337,kuendesha,zao,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0008,ɛ,16,0.065,1.139,1.204,ʃ,n,0,operesheni,3,0.673,1.337,kuendesha,zao,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0009,i,18,0.069,1.268,1.337,n,z,0,operesheni,3,0.673,1.337,kuendesha,zao,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0010,ɑ,20,0.124,1.457,1.581,z,ɔ,0,zao,4,1.337,1.679,operesheni,za,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0011,ɔ,21,0.0980000000000001,1.581,1.679,ɑ,z,0,zao,4,1.337,1.679,operesheni,za,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0012,ɑ,23,0.075,1.762,1.837,z,b,0,za,5,1.679,1.837,zao,bahari,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0013,ɑ,25,0.0860000000000001,1.903,1.989,b,h,0,bahari,6,1.837,2.293,za,-,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0014,ɑ,27,0.085,2.072,2.157,h,ɾ,0,bahari,6,1.837,2.293,za,-,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-010,common_voice_sw_38021900-04-010_0015,i,29,0.1,2.193,2.293,ɾ,-,0,bahari,6,1.837,2.293,za,-,kuendesha operesheni zao za bahari
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0001,i,3,0.051,0.227,0.278,s,l,0,silaha,2,0.079,0.479,-,hizo,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0002,ɑ,5,0.06,0.339,0.399,l,h,0,silaha,2,0.079,0.479,-,hizo,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0003,ɑ,7,0.048,0.431,0.479,h,h,0,silaha,2,0.079,0.479,-,hizo,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0004,i,9,0.126,0.523,0.649,h,z,0,hizo,3,0.479,0.783,silaha,zinadaiwa,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0005,ɔ,11,0.0660000000000001,0.717,0.783,z,spn,0,hizo,3,0.479,0.783,silaha,zinadaiwa,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0006,u,14,0.048,1.379,1.427,k,t,0,kutumika,5,1.309,1.753,zinadaiwa,katika,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0007,u,16,0.0469999999999999,1.494,1.541,t,m,0,kutumika,5,1.309,1.753,zinadaiwa,katika,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0008,i,18,0.0499999999999998,1.596,1.646,m,k,0,kutumika,5,1.309,1.753,zinadaiwa,katika,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0009,ɑ,20,0.0659999999999998,1.687,1.753,k,k,0,kutumika,5,1.309,1.753,zinadaiwa,katika,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0010,ɑ,22,0.0710000000000002,1.801,1.872,k,t,0,katika,6,1.753,2.111,kutumika,mashambulizi,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0011,i,24,0.0759999999999999,1.941,2.017,t,k,0,katika,6,1.753,2.111,kutumika,mashambulizi,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0012,ɑ,26,0.0540000000000003,2.057,2.111,k,m,0,katika,6,1.753,2.111,kutumika,mashambulizi,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0013,ɑ,28,0.0650000000000004,2.175,2.24,m,ʃ,0,mashambulizi,7,2.111,3.013,katika,-,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0014,ɑ,30,0.0539999999999998,2.337,2.391,ʃ,m,0,mashambulizi,7,2.111,3.013,katika,-,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0015,u,33,0.0549999999999997,2.486,2.541,b,l,0,mashambulizi,7,2.111,3.013,katika,-,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0016,i,35,0.0959999999999996,2.603,2.699,l,z,0,mashambulizi,7,2.111,3.013,katika,-,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-012,common_voice_sw_38021900-04-012_0017,i,37,0.186,2.827,3.013,z,-,0,mashambulizi,7,2.111,3.013,katika,-,silaha hizo zinadaiwa kutumika katika mashambulizi
+common_voice_sw_38021900-04-014,common_voice_sw_38021900-04-014_0001,ɛ,4,0.056,0.181,0.237,w,ɲ,0,kwenye,2,0.069,0.553,-,-,kwenye vijiji
+common_voice_sw_38021900-04-014,common_voice_sw_38021900-04-014_0002,ɛ,6,0.252,0.301,0.553,ɲ,-,0,kwenye,2,0.069,0.553,-,-,kwenye vijiji
+common_voice_sw_38021900-04-014,common_voice_sw_38021900-04-014_0003,i,9,0.0920000000000001,0.704,0.796,v,dʒ,0,vijiji,4,0.599,1.391,-,-,kwenye vijiji
+common_voice_sw_38021900-04-014,common_voice_sw_38021900-04-014_0004,i,11,0.186,0.881,1.067,dʒ,dʒ,0,vijiji,4,0.599,1.391,-,-,kwenye vijiji
+common_voice_sw_38021900-04-014,common_voice_sw_38021900-04-014_0005,i,13,0.18,1.211,1.391,dʒ,-,0,vijiji,4,0.599,1.391,-,-,kwenye vijiji
+common_voice_sw_38021900-04-016,common_voice_sw_38021900-04-016_0001,ɑ,3,0.316,0.157,0.473,n,-,0,na,2,0.079,0.473,-,-,na
