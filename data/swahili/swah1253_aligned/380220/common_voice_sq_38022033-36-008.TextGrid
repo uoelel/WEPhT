@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 4.12 
 tiers? <exists> 
-size = 2 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
@@ -14,34 +14,34 @@ item []:
         intervals: size = 8 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07 
+            xmax = 0.079 
             text = "" 
         intervals [2]:
-            xmin = 0.07 
-            xmax = 0.47 
+            xmin = 0.079 
+            xmax = 0.469 
             text = "kati" 
         intervals [3]:
-            xmin = 0.47 
-            xmax = 0.58 
+            xmin = 0.469 
+            xmax = 0.571 
             text = "ya" 
         intervals [4]:
-            xmin = 0.58 
-            xmax = 0.94 
+            xmin = 0.571 
+            xmax = 1.021 
             text = "mwaka" 
         intervals [5]:
-            xmin = 0.94 
-            xmax = 1.73 
+            xmin = 1.021 
+            xmax = 1.729 
             text = "2001" 
         intervals [6]:
-            xmin = 1.73 
-            xmax = 1.84 
+            xmin = 1.729 
+            xmax = 1.831 
             text = "na" 
         intervals [7]:
-            xmin = 1.84 
-            xmax = 2.59 
+            xmin = 1.831 
+            xmax = 3.757 
             text = "2011" 
         intervals [8]:
-            xmin = 2.59 
+            xmin = 3.757 
             xmax = 4.12 
             text = "" 
     item [2]:
@@ -52,69 +52,79 @@ item []:
         intervals: size = 17 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07 
+            xmax = 0.079 
             text = "" 
         intervals [2]:
-            xmin = 0.07 
-            xmax = 0.14 
+            xmin = 0.079 
+            xmax = 0.147 
             text = "k" 
         intervals [3]:
-            xmin = 0.14 
-            xmax = 0.21 
+            xmin = 0.147 
+            xmax = 0.219 
             text = "ɑ" 
         intervals [4]:
-            xmin = 0.21 
-            xmax = 0.35 
+            xmin = 0.219 
+            xmax = 0.343 
             text = "t" 
         intervals [5]:
-            xmin = 0.35 
-            xmax = 0.47 
+            xmin = 0.343 
+            xmax = 0.469 
             text = "i" 
         intervals [6]:
-            xmin = 0.47 
-            xmax = 0.53 
+            xmin = 0.469 
+            xmax = 0.513 
             text = "j" 
         intervals [7]:
-            xmin = 0.53 
-            xmax = 0.58 
+            xmin = 0.513 
+            xmax = 0.571 
             text = "ɑ" 
         intervals [8]:
-            xmin = 0.58 
-            xmax = 0.66 
+            xmin = 0.571 
+            xmax = 0.657 
             text = "m" 
         intervals [9]:
-            xmin = 0.66 
-            xmax = 0.72 
+            xmin = 0.657 
+            xmax = 0.711 
             text = "w" 
         intervals [10]:
-            xmin = 0.72 
-            xmax = 0.78 
+            xmin = 0.711 
+            xmax = 0.779 
             text = "ɑ" 
         intervals [11]:
-            xmin = 0.78 
-            xmax = 0.91 
+            xmin = 0.779 
+            xmax = 0.917 
             text = "k" 
         intervals [12]:
-            xmin = 0.91 
-            xmax = 0.94 
+            xmin = 0.917 
+            xmax = 1.021 
             text = "ɑ" 
         intervals [13]:
-            xmin = 0.94 
-            xmax = 1.73 
+            xmin = 1.021 
+            xmax = 1.729 
             text = "spn" 
         intervals [14]:
-            xmin = 1.73 
-            xmax = 1.77 
+            xmin = 1.729 
+            xmax = 1.775 
             text = "n" 
         intervals [15]:
-            xmin = 1.77 
-            xmax = 1.84 
+            xmin = 1.775 
+            xmax = 1.831 
             text = "ɑ" 
         intervals [16]:
-            xmin = 1.84 
-            xmax = 2.59 
+            xmin = 1.831 
+            xmax = 3.757 
             text = "spn" 
         intervals [17]:
-            xmin = 2.59 
+            xmin = 3.757 
             xmax = 4.12 
             text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterances" 
+        xmin = 0 
+        xmax = 4.12 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.12 
+            text = "kati ya mwaka 2001 na 2011" 

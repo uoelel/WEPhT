@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 1.52 
 tiers? <exists> 
-size = 2 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
@@ -14,22 +14,22 @@ item []:
         intervals: size = 5 
         intervals [1]:
             xmin = 0 
-            xmax = 0.06 
+            xmax = 0.069 
             text = "" 
         intervals [2]:
-            xmin = 0.06 
-            xmax = 0.55 
+            xmin = 0.069 
+            xmax = 0.553 
             text = "kwenye" 
         intervals [3]:
-            xmin = 0.55 
-            xmax = 0.59 
+            xmin = 0.553 
+            xmax = 0.599 
             text = "" 
         intervals [4]:
-            xmin = 0.59 
-            xmax = 1.35 
+            xmin = 0.599 
+            xmax = 1.391 
             text = "vijiji" 
         intervals [5]:
-            xmin = 1.35 
+            xmin = 1.391 
             xmax = 1.52 
             text = "" 
     item [2]:
@@ -40,57 +40,67 @@ item []:
         intervals: size = 14 
         intervals [1]:
             xmin = 0 
-            xmax = 0.06 
+            xmax = 0.069 
             text = "" 
         intervals [2]:
-            xmin = 0.06 
-            xmax = 0.12 
+            xmin = 0.069 
+            xmax = 0.129 
             text = "k" 
         intervals [3]:
-            xmin = 0.12 
-            xmax = 0.18 
+            xmin = 0.129 
+            xmax = 0.181 
             text = "w" 
         intervals [4]:
-            xmin = 0.18 
-            xmax = 0.23 
+            xmin = 0.181 
+            xmax = 0.237 
             text = "ɛ" 
         intervals [5]:
-            xmin = 0.23 
-            xmax = 0.31 
+            xmin = 0.237 
+            xmax = 0.301 
             text = "ɲ" 
         intervals [6]:
-            xmin = 0.31 
-            xmax = 0.55 
+            xmin = 0.301 
+            xmax = 0.553 
             text = "ɛ" 
         intervals [7]:
-            xmin = 0.55 
-            xmax = 0.59 
+            xmin = 0.553 
+            xmax = 0.599 
             text = "" 
         intervals [8]:
-            xmin = 0.59 
-            xmax = 0.7 
+            xmin = 0.599 
+            xmax = 0.704 
             text = "v" 
         intervals [9]:
-            xmin = 0.7 
-            xmax = 0.79 
+            xmin = 0.704 
+            xmax = 0.796 
             text = "i" 
         intervals [10]:
-            xmin = 0.79 
-            xmax = 0.89 
+            xmin = 0.796 
+            xmax = 0.881 
             text = "dʒ" 
         intervals [11]:
-            xmin = 0.89 
-            xmax = 0.96 
+            xmin = 0.881 
+            xmax = 1.067 
             text = "i" 
         intervals [12]:
-            xmin = 0.96 
-            xmax = 1.25 
-            text = "ʄ" 
+            xmin = 1.067 
+            xmax = 1.211 
+            text = "dʒ" 
         intervals [13]:
-            xmin = 1.25 
-            xmax = 1.35 
+            xmin = 1.211 
+            xmax = 1.391 
             text = "i" 
         intervals [14]:
-            xmin = 1.35 
+            xmin = 1.391 
             xmax = 1.52 
             text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterances" 
+        xmin = 0 
+        xmax = 1.52 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.52 
+            text = "kwenye vijiji" 

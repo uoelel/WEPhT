@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 2.848 
 tiers? <exists> 
-size = 2 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
@@ -14,30 +14,30 @@ item []:
         intervals: size = 7 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07 
+            xmax = 0.069 
             text = "" 
         intervals [2]:
-            xmin = 0.07 
-            xmax = 0.67 
+            xmin = 0.069 
+            xmax = 0.673 
             text = "kuendesha" 
         intervals [3]:
-            xmin = 0.67 
-            xmax = 1.34 
+            xmin = 0.673 
+            xmax = 1.337 
             text = "operesheni" 
         intervals [4]:
-            xmin = 1.34 
-            xmax = 1.66 
+            xmin = 1.337 
+            xmax = 1.679 
             text = "zao" 
         intervals [5]:
-            xmin = 1.66 
-            xmax = 1.84 
+            xmin = 1.679 
+            xmax = 1.837 
             text = "za" 
         intervals [6]:
-            xmin = 1.84 
-            xmax = 2.27 
+            xmin = 1.837 
+            xmax = 2.293 
             text = "bahari" 
         intervals [7]:
-            xmin = 2.27 
+            xmin = 2.293 
             xmax = 2.848 
             text = "" 
     item [2]:
@@ -48,121 +48,131 @@ item []:
         intervals: size = 30 
         intervals [1]:
             xmin = 0 
-            xmax = 0.07 
+            xmax = 0.069 
             text = "" 
         intervals [2]:
-            xmin = 0.07 
-            xmax = 0.12 
+            xmin = 0.069 
+            xmax = 0.127 
             text = "k" 
         intervals [3]:
-            xmin = 0.12 
-            xmax = 0.18 
+            xmin = 0.127 
+            xmax = 0.181 
             text = "u" 
         intervals [4]:
-            xmin = 0.18 
-            xmax = 0.28 
+            xmin = 0.181 
+            xmax = 0.287 
             text = "ɛ" 
         intervals [5]:
-            xmin = 0.28 
-            xmax = 0.34 
+            xmin = 0.287 
+            xmax = 0.349 
             text = "n" 
         intervals [6]:
-            xmin = 0.34 
-            xmax = 0.38 
+            xmin = 0.349 
+            xmax = 0.373 
             text = "d" 
         intervals [7]:
-            xmin = 0.38 
-            xmax = 0.47 
+            xmin = 0.373 
+            xmax = 0.479 
             text = "ɛ" 
         intervals [8]:
-            xmin = 0.47 
-            xmax = 0.58 
+            xmin = 0.479 
+            xmax = 0.587 
             text = "ʃ" 
         intervals [9]:
-            xmin = 0.58 
-            xmax = 0.67 
+            xmin = 0.587 
+            xmax = 0.673 
             text = "ɑ" 
         intervals [10]:
-            xmin = 0.67 
-            xmax = 0.75 
+            xmin = 0.673 
+            xmax = 0.757 
             text = "ɔ" 
         intervals [11]:
-            xmin = 0.75 
-            xmax = 0.81 
+            xmin = 0.757 
+            xmax = 0.813 
             text = "p" 
         intervals [12]:
-            xmin = 0.81 
-            xmax = 0.89 
+            xmin = 0.813 
+            xmax = 0.891 
             text = "ɛ" 
         intervals [13]:
-            xmin = 0.89 
-            xmax = 0.92 
+            xmin = 0.891 
+            xmax = 0.931 
             text = "ɾ" 
         intervals [14]:
-            xmin = 0.92 
-            xmax = 1.03 
+            xmin = 0.931 
+            xmax = 1.039 
             text = "ɛ" 
         intervals [15]:
-            xmin = 1.03 
-            xmax = 1.13 
+            xmin = 1.039 
+            xmax = 1.139 
             text = "ʃ" 
         intervals [16]:
-            xmin = 1.13 
-            xmax = 1.21 
+            xmin = 1.139 
+            xmax = 1.204 
             text = "ɛ" 
         intervals [17]:
-            xmin = 1.21 
-            xmax = 1.26 
+            xmin = 1.204 
+            xmax = 1.268 
             text = "n" 
         intervals [18]:
-            xmin = 1.26 
-            xmax = 1.34 
+            xmin = 1.268 
+            xmax = 1.337 
             text = "i" 
         intervals [19]:
-            xmin = 1.34 
-            xmax = 1.44 
+            xmin = 1.337 
+            xmax = 1.457 
             text = "z" 
         intervals [20]:
-            xmin = 1.44 
-            xmax = 1.58 
+            xmin = 1.457 
+            xmax = 1.581 
             text = "ɑ" 
         intervals [21]:
-            xmin = 1.58 
-            xmax = 1.66 
+            xmin = 1.581 
+            xmax = 1.679 
             text = "ɔ" 
         intervals [22]:
-            xmin = 1.66 
-            xmax = 1.76 
+            xmin = 1.679 
+            xmax = 1.762 
             text = "z" 
         intervals [23]:
-            xmin = 1.76 
-            xmax = 1.84 
+            xmin = 1.762 
+            xmax = 1.837 
             text = "ɑ" 
         intervals [24]:
-            xmin = 1.84 
-            xmax = 1.91 
+            xmin = 1.837 
+            xmax = 1.903 
             text = "b" 
         intervals [25]:
-            xmin = 1.91 
-            xmax = 1.96 
+            xmin = 1.903 
+            xmax = 1.989 
             text = "ɑ" 
         intervals [26]:
-            xmin = 1.96 
-            xmax = 2.07 
+            xmin = 1.989 
+            xmax = 2.072 
             text = "h" 
         intervals [27]:
-            xmin = 2.07 
-            xmax = 2.15 
+            xmin = 2.072 
+            xmax = 2.157 
             text = "ɑ" 
         intervals [28]:
-            xmin = 2.15 
-            xmax = 2.19 
+            xmin = 2.157 
+            xmax = 2.193 
             text = "ɾ" 
         intervals [29]:
-            xmin = 2.19 
-            xmax = 2.27 
+            xmin = 2.193 
+            xmax = 2.293 
             text = "i" 
         intervals [30]:
-            xmin = 2.27 
+            xmin = 2.293 
             xmax = 2.848 
             text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterances" 
+        xmin = 0 
+        xmax = 2.848 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.848 
+            text = "kuendesha operesheni zao za bahari" 
