@@ -4,15 +4,103 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 1.52 
 tiers? <exists> 
-size = 1 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "380219" 
+        name = "words" 
+        xmin = 0 
+        xmax = 1.52 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.069 
+            text = "" 
+        intervals [2]:
+            xmin = 0.069 
+            xmax = 0.553 
+            text = "kwenye" 
+        intervals [3]:
+            xmin = 0.553 
+            xmax = 0.599 
+            text = "" 
+        intervals [4]:
+            xmin = 0.599 
+            xmax = 1.381 
+            text = "vijiji" 
+        intervals [5]:
+            xmin = 1.381 
+            xmax = 1.52 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 1.52 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.069 
+            text = "" 
+        intervals [2]:
+            xmin = 0.069 
+            xmax = 0.129 
+            text = "k" 
+        intervals [3]:
+            xmin = 0.129 
+            xmax = 0.181 
+            text = "w" 
+        intervals [4]:
+            xmin = 0.181 
+            xmax = 0.237 
+            text = "ɛ" 
+        intervals [5]:
+            xmin = 0.237 
+            xmax = 0.301 
+            text = "ɲ" 
+        intervals [6]:
+            xmin = 0.301 
+            xmax = 0.553 
+            text = "ɛ" 
+        intervals [7]:
+            xmin = 0.553 
+            xmax = 0.599 
+            text = "" 
+        intervals [8]:
+            xmin = 0.599 
+            xmax = 0.704 
+            text = "v" 
+        intervals [9]:
+            xmin = 0.704 
+            xmax = 0.796 
+            text = "i" 
+        intervals [10]:
+            xmin = 0.796 
+            xmax = 0.881 
+            text = "dʒ" 
+        intervals [11]:
+            xmin = 0.881 
+            xmax = 1.067 
+            text = "i" 
+        intervals [12]:
+            xmin = 1.067 
+            xmax = 1.211 
+            text = "dʒ" 
+        intervals [13]:
+            xmin = 1.211 
+            xmax = 1.381 
+            text = "i" 
+        intervals [14]:
+            xmin = 1.381 
+            xmax = 1.52 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterances" 
         xmin = 0 
         xmax = 1.52 
         intervals: size = 1 
         intervals [1]:
             xmin = 0 
             xmax = 1.52 
-            text = "kwenye vijiji " 
+            text = "kwenye vijiji" 

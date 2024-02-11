@@ -57,13 +57,13 @@ conda activate mfa
 ✅ -- **Align the transcripts and segment words with MFA.**
 
 ```bash
-mfa align --include_original_text --fine_tune data/swahili/swah1253 swahili_mfa swahili_mfa data/swahili/swah1253_aligned
+mfa align --include_original_text --fine_tune data/swahili/swah1253 swahili_mfa swahili_mfa data/swahili/swah1253
 ```
 
 The `--include_original_text` flag ensures the original utterance text is added in full in the aligned TextGrid.
 The `--fine_tune` flag ensures alignment precision to be up to 1 ms (rather than the default 10 ms; this is useful for most research aims).
 
-Now the `data/swahili/swah1253_aligned` has TextGrids with the word-by-word and segment-by-segment alignments!
+Now the `data/swahili/swah1253` has TextGrids with the word-by-word and segment-by-segment alignments!
 
 ### Extract vowel formants and f0 with FastTrack
 

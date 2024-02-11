@@ -2,17 +2,169 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 3.61603125 
+xmax = 3.616031 
 tiers? <exists> 
-size = 1 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "380221" 
+        name = "words" 
         xmin = 0 
-        xmax = 3.61603125 
+        xmax = 3.616031 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.119 
+            text = "" 
+        intervals [2]:
+            xmin = 0.119 
+            xmax = 0.254 
+            text = "pacha" 
+        intervals [3]:
+            xmin = 0.254 
+            xmax = 0.371 
+            text = "wa" 
+        intervals [4]:
+            xmin = 0.371 
+            xmax = 2.099 
+            text = "uduma" 
+        intervals [5]:
+            xmin = 2.099 
+            xmax = 2.211 
+            text = "ni" 
+        intervals [6]:
+            xmin = 2.211 
+            xmax = 2.863 
+            text = "mashahidi" 
+        intervals [7]:
+            xmin = 2.863 
+            xmax = 3.501 
+            text = "walisema" 
+        intervals [8]:
+            xmin = 3.501 
+            xmax = 3.616031 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 3.616031 
+        intervals: size = 27 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.119 
+            text = "" 
+        intervals [2]:
+            xmin = 0.119 
+            xmax = 0.151 
+            text = "p" 
+        intervals [3]:
+            xmin = 0.151 
+            xmax = 0.209 
+            text = "ɑ" 
+        intervals [4]:
+            xmin = 0.209 
+            xmax = 0.221 
+            text = "tʃ" 
+        intervals [5]:
+            xmin = 0.221 
+            xmax = 0.254 
+            text = "ɑ" 
+        intervals [6]:
+            xmin = 0.254 
+            xmax = 0.298 
+            text = "w" 
+        intervals [7]:
+            xmin = 0.298 
+            xmax = 0.371 
+            text = "ɑ" 
+        intervals [8]:
+            xmin = 0.371 
+            xmax = 2.099 
+            text = "spn" 
+        intervals [9]:
+            xmin = 2.099 
+            xmax = 2.157 
+            text = "n" 
+        intervals [10]:
+            xmin = 2.157 
+            xmax = 2.211 
+            text = "i" 
+        intervals [11]:
+            xmin = 2.211 
+            xmax = 2.297 
+            text = "m" 
+        intervals [12]:
+            xmin = 2.297 
+            xmax = 2.369 
+            text = "ɑ" 
+        intervals [13]:
+            xmin = 2.369 
+            xmax = 2.452 
+            text = "ʃ" 
+        intervals [14]:
+            xmin = 2.452 
+            xmax = 2.491 
+            text = "ɑ" 
+        intervals [15]:
+            xmin = 2.491 
+            xmax = 2.581 
+            text = "h" 
+        intervals [16]:
+            xmin = 2.581 
+            xmax = 2.719 
+            text = "i" 
+        intervals [17]:
+            xmin = 2.719 
+            xmax = 2.791 
+            text = "ɗ" 
+        intervals [18]:
+            xmin = 2.791 
+            xmax = 2.863 
+            text = "i" 
+        intervals [19]:
+            xmin = 2.863 
+            xmax = 2.943 
+            text = "w" 
+        intervals [20]:
+            xmin = 2.943 
+            xmax = 2.981 
+            text = "ɑ" 
+        intervals [21]:
+            xmin = 2.981 
+            xmax = 3.023 
+            text = "l" 
+        intervals [22]:
+            xmin = 3.023 
+            xmax = 3.063 
+            text = "i" 
+        intervals [23]:
+            xmin = 3.063 
+            xmax = 3.207 
+            text = "s" 
+        intervals [24]:
+            xmin = 3.207 
+            xmax = 3.323 
+            text = "ɛ" 
+        intervals [25]:
+            xmin = 3.323 
+            xmax = 3.402 
+            text = "m" 
+        intervals [26]:
+            xmin = 3.402 
+            xmax = 3.501 
+            text = "ɑ" 
+        intervals [27]:
+            xmin = 3.501 
+            xmax = 3.616031 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterances" 
+        xmin = 0 
+        xmax = 3.616031 
         intervals: size = 1 
         intervals [1]:
             xmin = 0 
-            xmax = 3.61603125 
-            text = "pacha wa uduma ni mashahidi walisema " 
+            xmax = 3.616031 
+            text = "pacha wa uduma ni mashahidi walisema" 

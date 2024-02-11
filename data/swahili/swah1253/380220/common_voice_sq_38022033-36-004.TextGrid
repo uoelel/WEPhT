@@ -4,15 +4,295 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 4.752 
 tiers? <exists> 
-size = 1 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "380220" 
+        name = "words" 
+        xmin = 0 
+        xmax = 4.752 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.069 
+            text = "" 
+        intervals [2]:
+            xmin = 0.069 
+            xmax = 0.709 
+            text = "takriban" 
+        intervals [3]:
+            xmin = 0.709 
+            xmax = 1.205 
+            text = "watu" 
+        intervals [4]:
+            xmin = 1.205 
+            xmax = 1.542 
+            text = "elfu" 
+        intervals [5]:
+            xmin = 1.542 
+            xmax = 1.961 
+            text = "sitini" 
+        intervals [6]:
+            xmin = 1.961 
+            xmax = 2.073 
+            text = "na" 
+        intervals [7]:
+            xmin = 2.073 
+            xmax = 2.46 
+            text = "nane" 
+        intervals [8]:
+            xmin = 2.46 
+            xmax = 2.867 
+            text = "kufa" 
+        intervals [9]:
+            xmin = 2.867 
+            xmax = 3.181 
+            text = "kila" 
+        intervals [10]:
+            xmin = 3.181 
+            xmax = 3.608 
+            text = "mwaka" 
+        intervals [11]:
+            xmin = 3.608 
+            xmax = 4.113 
+            text = "nchini" 
+        intervals [12]:
+            xmin = 4.113 
+            xmax = 4.671 
+            text = "uganda" 
+        intervals [13]:
+            xmin = 4.671 
+            xmax = 4.752 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 4.752 
+        intervals: size = 54 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.069 
+            text = "" 
+        intervals [2]:
+            xmin = 0.069 
+            xmax = 0.101 
+            text = "t" 
+        intervals [3]:
+            xmin = 0.101 
+            xmax = 0.194 
+            text = "ɑ" 
+        intervals [4]:
+            xmin = 0.194 
+            xmax = 0.271 
+            text = "k" 
+        intervals [5]:
+            xmin = 0.271 
+            xmax = 0.301 
+            text = "ɾ" 
+        intervals [6]:
+            xmin = 0.301 
+            xmax = 0.389 
+            text = "i" 
+        intervals [7]:
+            xmin = 0.389 
+            xmax = 0.465 
+            text = "ɓ" 
+        intervals [8]:
+            xmin = 0.465 
+            xmax = 0.563 
+            text = "ɑ" 
+        intervals [9]:
+            xmin = 0.563 
+            xmax = 0.709 
+            text = "n" 
+        intervals [10]:
+            xmin = 0.709 
+            xmax = 0.861 
+            text = "w" 
+        intervals [11]:
+            xmin = 0.861 
+            xmax = 0.959 
+            text = "ɑ" 
+        intervals [12]:
+            xmin = 0.959 
+            xmax = 1.086 
+            text = "t" 
+        intervals [13]:
+            xmin = 1.086 
+            xmax = 1.205 
+            text = "u" 
+        intervals [14]:
+            xmin = 1.205 
+            xmax = 1.327 
+            text = "ɛ" 
+        intervals [15]:
+            xmin = 1.327 
+            xmax = 1.369 
+            text = "l" 
+        intervals [16]:
+            xmin = 1.369 
+            xmax = 1.487 
+            text = "f" 
+        intervals [17]:
+            xmin = 1.487 
+            xmax = 1.542 
+            text = "u" 
+        intervals [18]:
+            xmin = 1.542 
+            xmax = 1.667 
+            text = "s" 
+        intervals [19]:
+            xmin = 1.667 
+            xmax = 1.747 
+            text = "i" 
+        intervals [20]:
+            xmin = 1.747 
+            xmax = 1.761 
+            text = "t" 
+        intervals [21]:
+            xmin = 1.761 
+            xmax = 1.861 
+            text = "i" 
+        intervals [22]:
+            xmin = 1.861 
+            xmax = 1.917 
+            text = "n" 
+        intervals [23]:
+            xmin = 1.917 
+            xmax = 1.961 
+            text = "i" 
+        intervals [24]:
+            xmin = 1.961 
+            xmax = 2.027 
+            text = "n" 
+        intervals [25]:
+            xmin = 2.027 
+            xmax = 2.073 
+            text = "ɑ" 
+        intervals [26]:
+            xmin = 2.073 
+            xmax = 2.167 
+            text = "n" 
+        intervals [27]:
+            xmin = 2.167 
+            xmax = 2.297 
+            text = "ɑ" 
+        intervals [28]:
+            xmin = 2.297 
+            xmax = 2.376 
+            text = "n" 
+        intervals [29]:
+            xmin = 2.376 
+            xmax = 2.46 
+            text = "ɛ" 
+        intervals [30]:
+            xmin = 2.46 
+            xmax = 2.559 
+            text = "k" 
+        intervals [31]:
+            xmin = 2.559 
+            xmax = 2.649 
+            text = "u" 
+        intervals [32]:
+            xmin = 2.649 
+            xmax = 2.77 
+            text = "f" 
+        intervals [33]:
+            xmin = 2.77 
+            xmax = 2.867 
+            text = "ɑ" 
+        intervals [34]:
+            xmin = 2.867 
+            xmax = 3.007 
+            text = "k" 
+        intervals [35]:
+            xmin = 3.007 
+            xmax = 3.044 
+            text = "i" 
+        intervals [36]:
+            xmin = 3.044 
+            xmax = 3.116 
+            text = "l" 
+        intervals [37]:
+            xmin = 3.116 
+            xmax = 3.181 
+            text = "ɑ" 
+        intervals [38]:
+            xmin = 3.181 
+            xmax = 3.267 
+            text = "m" 
+        intervals [39]:
+            xmin = 3.267 
+            xmax = 3.331 
+            text = "w" 
+        intervals [40]:
+            xmin = 3.331 
+            xmax = 3.393 
+            text = "ɑ" 
+        intervals [41]:
+            xmin = 3.393 
+            xmax = 3.511 
+            text = "k" 
+        intervals [42]:
+            xmin = 3.511 
+            xmax = 3.608 
+            text = "ɑ" 
+        intervals [43]:
+            xmin = 3.608 
+            xmax = 3.699 
+            text = "n" 
+        intervals [44]:
+            xmin = 3.699 
+            xmax = 3.837 
+            text = "tʃ" 
+        intervals [45]:
+            xmin = 3.837 
+            xmax = 3.92 
+            text = "i" 
+        intervals [46]:
+            xmin = 3.92 
+            xmax = 4.017 
+            text = "n" 
+        intervals [47]:
+            xmin = 4.017 
+            xmax = 4.113 
+            text = "i" 
+        intervals [48]:
+            xmin = 4.113 
+            xmax = 4.184 
+            text = "u" 
+        intervals [49]:
+            xmin = 4.184 
+            xmax = 4.267 
+            text = "ɠ" 
+        intervals [50]:
+            xmin = 4.267 
+            xmax = 4.396 
+            text = "ɑ" 
+        intervals [51]:
+            xmin = 4.396 
+            xmax = 4.489 
+            text = "n" 
+        intervals [52]:
+            xmin = 4.489 
+            xmax = 4.511 
+            text = "d" 
+        intervals [53]:
+            xmin = 4.511 
+            xmax = 4.671 
+            text = "ɑ" 
+        intervals [54]:
+            xmin = 4.671 
+            xmax = 4.752 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterances" 
         xmin = 0 
         xmax = 4.752 
         intervals: size = 1 
         intervals [1]:
             xmin = 0 
             xmax = 4.752 
-            text = "takriban watu elfu sitini na nane kufa kila mwaka nchini uganda " 
+            text = "takriban watu elfu sitini na nane kufa kila mwaka nchini uganda" 

@@ -4,15 +4,163 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 3 
 tiers? <exists> 
-size = 1 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "380219" 
+        name = "words" 
+        xmin = 0 
+        xmax = 3 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.069 
+            text = "" 
+        intervals [2]:
+            xmin = 0.069 
+            xmax = 0.578 
+            text = "wakati" 
+        intervals [3]:
+            xmin = 0.578 
+            xmax = 0.967 
+            text = "upande" 
+        intervals [4]:
+            xmin = 0.967 
+            xmax = 1.541 
+            text = "madhehebu" 
+        intervals [5]:
+            xmin = 1.541 
+            xmax = 1.831 
+            text = "ya" 
+        intervals [6]:
+            xmin = 1.831 
+            xmax = 2.407 
+            text = "" 
+        intervals [7]:
+            xmin = 2.407 
+            xmax = 2.849 
+            text = "wasuni" 
+        intervals [8]:
+            xmin = 2.849 
+            xmax = 3 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 3 
+        intervals: size = 26 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.069 
+            text = "" 
+        intervals [2]:
+            xmin = 0.069 
+            xmax = 0.201 
+            text = "w" 
+        intervals [3]:
+            xmin = 0.201 
+            xmax = 0.261 
+            text = "ɑ" 
+        intervals [4]:
+            xmin = 0.261 
+            xmax = 0.356 
+            text = "k" 
+        intervals [5]:
+            xmin = 0.356 
+            xmax = 0.466 
+            text = "ɑ" 
+        intervals [6]:
+            xmin = 0.466 
+            xmax = 0.533 
+            text = "t" 
+        intervals [7]:
+            xmin = 0.533 
+            xmax = 0.578 
+            text = "i" 
+        intervals [8]:
+            xmin = 0.578 
+            xmax = 0.657 
+            text = "u" 
+        intervals [9]:
+            xmin = 0.657 
+            xmax = 0.721 
+            text = "p" 
+        intervals [10]:
+            xmin = 0.721 
+            xmax = 0.823 
+            text = "ɑ" 
+        intervals [11]:
+            xmin = 0.823 
+            xmax = 0.869 
+            text = "n" 
+        intervals [12]:
+            xmin = 0.869 
+            xmax = 0.895 
+            text = "d" 
+        intervals [13]:
+            xmin = 0.895 
+            xmax = 0.967 
+            text = "ɛ" 
+        intervals [14]:
+            xmin = 0.967 
+            xmax = 1.046 
+            text = "m" 
+        intervals [15]:
+            xmin = 1.046 
+            xmax = 1.123 
+            text = "ɑ" 
+        intervals [16]:
+            xmin = 1.123 
+            xmax = 1.195 
+            text = "ð" 
+        intervals [17]:
+            xmin = 1.195 
+            xmax = 1.249 
+            text = "ɛ" 
+        intervals [18]:
+            xmin = 1.249 
+            xmax = 1.321 
+            text = "h" 
+        intervals [19]:
+            xmin = 1.321 
+            xmax = 1.429 
+            text = "ɛ" 
+        intervals [20]:
+            xmin = 1.429 
+            xmax = 1.497 
+            text = "ɓ" 
+        intervals [21]:
+            xmin = 1.497 
+            xmax = 1.541 
+            text = "u" 
+        intervals [22]:
+            xmin = 1.541 
+            xmax = 1.653 
+            text = "j" 
+        intervals [23]:
+            xmin = 1.653 
+            xmax = 1.831 
+            text = "ɑ" 
+        intervals [24]:
+            xmin = 1.831 
+            xmax = 2.407 
+            text = "" 
+        intervals [25]:
+            xmin = 2.407 
+            xmax = 2.849 
+            text = "spn" 
+        intervals [26]:
+            xmin = 2.849 
+            xmax = 3 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterances" 
         xmin = 0 
         xmax = 3 
         intervals: size = 1 
         intervals [1]:
             xmin = 0 
             xmax = 3 
-            text = "wakati upande madhehebu ya wasuni " 
+            text = "wakati upande madhehebu ya wasuni" 

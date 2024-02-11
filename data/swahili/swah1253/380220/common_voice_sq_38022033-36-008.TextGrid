@@ -4,15 +4,127 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 4.12 
 tiers? <exists> 
-size = 1 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "380220" 
+        name = "words" 
+        xmin = 0 
+        xmax = 4.12 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.079 
+            text = "" 
+        intervals [2]:
+            xmin = 0.079 
+            xmax = 0.469 
+            text = "kati" 
+        intervals [3]:
+            xmin = 0.469 
+            xmax = 0.571 
+            text = "ya" 
+        intervals [4]:
+            xmin = 0.571 
+            xmax = 1.021 
+            text = "mwaka" 
+        intervals [5]:
+            xmin = 1.021 
+            xmax = 1.729 
+            text = "2001" 
+        intervals [6]:
+            xmin = 1.729 
+            xmax = 1.831 
+            text = "na" 
+        intervals [7]:
+            xmin = 1.831 
+            xmax = 3.757 
+            text = "2011" 
+        intervals [8]:
+            xmin = 3.757 
+            xmax = 4.12 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 4.12 
+        intervals: size = 17 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.079 
+            text = "" 
+        intervals [2]:
+            xmin = 0.079 
+            xmax = 0.147 
+            text = "k" 
+        intervals [3]:
+            xmin = 0.147 
+            xmax = 0.219 
+            text = "ɑ" 
+        intervals [4]:
+            xmin = 0.219 
+            xmax = 0.343 
+            text = "t" 
+        intervals [5]:
+            xmin = 0.343 
+            xmax = 0.469 
+            text = "i" 
+        intervals [6]:
+            xmin = 0.469 
+            xmax = 0.513 
+            text = "j" 
+        intervals [7]:
+            xmin = 0.513 
+            xmax = 0.571 
+            text = "ɑ" 
+        intervals [8]:
+            xmin = 0.571 
+            xmax = 0.657 
+            text = "m" 
+        intervals [9]:
+            xmin = 0.657 
+            xmax = 0.711 
+            text = "w" 
+        intervals [10]:
+            xmin = 0.711 
+            xmax = 0.778 
+            text = "ɑ" 
+        intervals [11]:
+            xmin = 0.778 
+            xmax = 0.917 
+            text = "k" 
+        intervals [12]:
+            xmin = 0.917 
+            xmax = 1.021 
+            text = "ɑ" 
+        intervals [13]:
+            xmin = 1.021 
+            xmax = 1.729 
+            text = "spn" 
+        intervals [14]:
+            xmin = 1.729 
+            xmax = 1.775 
+            text = "n" 
+        intervals [15]:
+            xmin = 1.775 
+            xmax = 1.831 
+            text = "ɑ" 
+        intervals [16]:
+            xmin = 1.831 
+            xmax = 3.757 
+            text = "spn" 
+        intervals [17]:
+            xmin = 3.757 
+            xmax = 4.12 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterances" 
         xmin = 0 
         xmax = 4.12 
         intervals: size = 1 
         intervals [1]:
             xmin = 0 
             xmax = 4.12 
-            text = "kati ya mwaka 2001 na 2011 " 
+            text = "kati ya mwaka 2001 na 2011" 

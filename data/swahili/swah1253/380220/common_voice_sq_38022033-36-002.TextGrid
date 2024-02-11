@@ -4,15 +4,223 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 3.136 
 tiers? <exists> 
-size = 1 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
-        name = "380220" 
+        name = "words" 
+        xmin = 0 
+        xmax = 3.136 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.079 
+            text = "" 
+        intervals [2]:
+            xmin = 0.079 
+            xmax = 0.641 
+            text = "ugonjwa" 
+        intervals [3]:
+            xmin = 0.641 
+            xmax = 0.799 
+            text = "wa" 
+        intervals [4]:
+            xmin = 0.799 
+            xmax = 1.141 
+            text = "homa" 
+        intervals [5]:
+            xmin = 1.141 
+            xmax = 1.211 
+            text = "ya" 
+        intervals [6]:
+            xmin = 1.211 
+            xmax = 1.809 
+            text = "mapafu" 
+        intervals [7]:
+            xmin = 1.809 
+            xmax = 1.961 
+            text = "kwa" 
+        intervals [8]:
+            xmin = 1.961 
+            xmax = 2.417 
+            text = "kondoo" 
+        intervals [9]:
+            xmin = 2.417 
+            xmax = 2.521 
+            text = "na" 
+        intervals [10]:
+            xmin = 2.521 
+            xmax = 3.083 
+            text = "mbuzi" 
+        intervals [11]:
+            xmin = 3.083 
+            xmax = 3.136 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "phones" 
+        xmin = 0 
+        xmax = 3.136 
+        intervals: size = 38 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.079 
+            text = "" 
+        intervals [2]:
+            xmin = 0.079 
+            xmax = 0.167 
+            text = "u" 
+        intervals [3]:
+            xmin = 0.167 
+            xmax = 0.223 
+            text = "ɠ" 
+        intervals [4]:
+            xmin = 0.223 
+            xmax = 0.339 
+            text = "ɔ" 
+        intervals [5]:
+            xmin = 0.339 
+            xmax = 0.409 
+            text = "n" 
+        intervals [6]:
+            xmin = 0.409 
+            xmax = 0.451 
+            text = "dʒ" 
+        intervals [7]:
+            xmin = 0.451 
+            xmax = 0.551 
+            text = "w" 
+        intervals [8]:
+            xmin = 0.551 
+            xmax = 0.641 
+            text = "ɑ" 
+        intervals [9]:
+            xmin = 0.641 
+            xmax = 0.753 
+            text = "w" 
+        intervals [10]:
+            xmin = 0.753 
+            xmax = 0.799 
+            text = "ɑ" 
+        intervals [11]:
+            xmin = 0.799 
+            xmax = 0.861 
+            text = "h" 
+        intervals [12]:
+            xmin = 0.861 
+            xmax = 1.017 
+            text = "ɔ" 
+        intervals [13]:
+            xmin = 1.017 
+            xmax = 1.102 
+            text = "m" 
+        intervals [14]:
+            xmin = 1.102 
+            xmax = 1.141 
+            text = "ɑ" 
+        intervals [15]:
+            xmin = 1.141 
+            xmax = 1.171 
+            text = "j" 
+        intervals [16]:
+            xmin = 1.171 
+            xmax = 1.211 
+            text = "ɑ" 
+        intervals [17]:
+            xmin = 1.211 
+            xmax = 1.251 
+            text = "m" 
+        intervals [18]:
+            xmin = 1.251 
+            xmax = 1.313 
+            text = "ɑ" 
+        intervals [19]:
+            xmin = 1.313 
+            xmax = 1.411 
+            text = "p" 
+        intervals [20]:
+            xmin = 1.411 
+            xmax = 1.549 
+            text = "ɑ" 
+        intervals [21]:
+            xmin = 1.549 
+            xmax = 1.669 
+            text = "f" 
+        intervals [22]:
+            xmin = 1.669 
+            xmax = 1.809 
+            text = "u" 
+        intervals [23]:
+            xmin = 1.809 
+            xmax = 1.909 
+            text = "k" 
+        intervals [24]:
+            xmin = 1.909 
+            xmax = 1.921 
+            text = "w" 
+        intervals [25]:
+            xmin = 1.921 
+            xmax = 1.961 
+            text = "ɑ" 
+        intervals [26]:
+            xmin = 1.961 
+            xmax = 2.097 
+            text = "k" 
+        intervals [27]:
+            xmin = 2.097 
+            xmax = 2.157 
+            text = "ɔ" 
+        intervals [28]:
+            xmin = 2.157 
+            xmax = 2.239 
+            text = "n" 
+        intervals [29]:
+            xmin = 2.239 
+            xmax = 2.273 
+            text = "d" 
+        intervals [30]:
+            xmin = 2.273 
+            xmax = 2.417 
+            text = "ɔː" 
+        intervals [31]:
+            xmin = 2.417 
+            xmax = 2.473 
+            text = "n" 
+        intervals [32]:
+            xmin = 2.473 
+            xmax = 2.521 
+            text = "ɑ" 
+        intervals [33]:
+            xmin = 2.521 
+            xmax = 2.599 
+            text = "m" 
+        intervals [34]:
+            xmin = 2.599 
+            xmax = 2.635 
+            text = "b" 
+        intervals [35]:
+            xmin = 2.635 
+            xmax = 2.729 
+            text = "u" 
+        intervals [36]:
+            xmin = 2.729 
+            xmax = 2.859 
+            text = "z" 
+        intervals [37]:
+            xmin = 2.859 
+            xmax = 3.083 
+            text = "i" 
+        intervals [38]:
+            xmin = 3.083 
+            xmax = 3.136 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "utterances" 
         xmin = 0 
         xmax = 3.136 
         intervals: size = 1 
         intervals [1]:
             xmin = 0 
             xmax = 3.136 
-            text = "ugonjwa wa homa ya mapafu kwa kondoo na mbuzi " 
+            text = "ugonjwa wa homa ya mapafu kwa kondoo na mbuzi" 
