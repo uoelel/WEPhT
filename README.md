@@ -67,7 +67,9 @@ Now the `data/swahili/swah1253` has TextGrids with the word-by-word and segment-
 
 ### Extract vowel formants and f0 with FastTrack
 
-...
+Open any wav file in Praat. Select `Tools...` under `Fast Track` and then select `Extract vowels with TextGrids`. A new window will open.
+
+✅ -- **Extract the vowels for each speaker separately using the `Extract vowels with TextGrids` tool.**
 
 ### Extract other phonetic measurements
 
