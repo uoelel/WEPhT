@@ -71,6 +71,14 @@ Open any wav file in Praat. Select `Tools...` under `Fast Track` and then select
 
 ✅ -- **Extract the vowels for each speaker separately using the `Extract vowels with TextGrids` tool.**
 
+As the output folder, use `data/swahili/swah1253_vowels`. The script will extract vowel sounds into a `sounds` folder in each speaker's folder in `swah1253_vowels`.
+
+Now we can track the formants. This has to be done speaker by speaker, using the `Track folder (lite)...` option.
+
+✅ -- **Get formants for each speaker with `Track folder (lite)...`.**
+
+The results are in `processed_data/aggregated_data.csv`, within each speaker's folder.
+
 ### Extract other phonetic measurements
 
 ...

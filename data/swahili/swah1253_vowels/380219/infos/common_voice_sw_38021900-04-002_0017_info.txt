@@ -1,9 +1,0 @@
-common_voice_sw_38021900-04-002_0017.wav
-Number of steps:
-20
-Cutoff frequencies were: 
-4700 4850 5000 5150 5300 5450 5600 5750 5900 6050 6200 6350 6500 6650 6800 6950 7100 7250 7400 7550
-Number of coefficients for prediction: 
-5
-Number of formants: 
-3
