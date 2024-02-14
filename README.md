@@ -81,7 +81,11 @@ The results are in `processed_data/aggregated_data.csv`, within each speaker's f
 
 ### Extract other phonetic measurements
 
-...
+We now move onto getting the Centre of Gravity (CoG) of fricatives.
+
+✅ -- **Run `code/03_get_measures.praat`.**
+
+A file `data/swahili/fricatives.csv` will be created.
 
 ## Mawayana
 
