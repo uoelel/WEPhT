@@ -44,7 +44,7 @@ Download the resulting files (they will be zipped) and then move the trascripts 
 
 Ideally, you would also check and fix the trascripts if needed (we are not gonna do that now).
 
-### Force-align trascripts to sound files.
+### Force-align trascripts to sound files
 
 We can finally force-align the trascripts to the sound files using the [Montreal Force Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/index.html).
 
@@ -89,4 +89,30 @@ A file `data/swahili/fricatives.csv` will be created.
 
 ## Mawayana
 
-...
+This example illustrates how to use the BAS services to obtain a rough force-alignement of languages that are not supported.
+
+We have prepared a TextGrid with intervals marking different utterances in `data/mawayana/mapi1252_long/yapoma_iguana.wav` and a text file with each segmented utterance in a new line.
+
+### Chunk long recordings
+
+✅ -- **Run `code/02_chunk_txt.praat` in Praat.**
+
+This script chunks the long file into separate files for each utterance and outputs the correponding transcription as a text file, in `data/mawayana/mapi1252/`.
+
+### Force-align trascripts to sound files
+
+We will use the Pipeline without ASR service: <https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/Pipeline>.
+
+✅ -- **Upload** the `.wav` and `.txt` files from `data/mawayana/mapi1252/` to the web page.
+
+✅ -- **Set the following options:**
+
+- As the Pipeline name, select `G2P->MAUS`.
+- As the language, select `Language Independent (X-Sampa)`.
+- Click on `Expert options` and next to `Imap mapping file (G2P)` click on `Choose file`. Upload the `data/mawayana/mapi1252_long/mwz_map.txt` file.
+
+The `mwz_map.txt` is a special file that contains grapheme/phoneme correspondences and it is used by the BAS G2P (grapheme-to-phoneme) service which converts transcripts to X-Sampa transcriptions.
+
+✅ -- **Agree to the terms and run the service.**
+
+You will be able to download the force-aligned TextGrids once the service is done.
