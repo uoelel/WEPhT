@@ -1,0 +1,85 @@
+---
+title: "Workshop on Experimental Phonetics Tools (WEPhT)"
+subtitle: "Session 1"
+author: "Stefano Coretta"
+format: mono-light-revealjs
+syntax-definitions: [../praat.xml]
+---
+
+## Overview
+
+...
+
+## Set up
+
+...
+
+## Praat scripting
+
+...
+
+## Praat scripting basics: hello
+
+```praat
+writeInfoLine: "Hello!"
+```
+
+## Praat scripting basics: strings
+
+```praat
+sent$ = "Hello!"
+
+writeInfoLine: sent$
+```
+
+
+## Praat scripting basics: string interpolation
+
+```praat
+name$ = "Stefano"
+
+writeInfoLine: "Hello, 'name$'!"
+```
+
+## Praat scripting basics: overwrite
+
+```praat
+name$ = "Stefano"
+
+writeInfoLine: "Hello, 'name$'!"
+writeInfoLine: "How are you?"
+```
+
+## Praat scripting basics: append
+
+```praat
+name$ = "Stefano"
+
+writeInfoLine: "Hello, 'name$'!"
+appendInfoLine: "How are you?"
+```
+
+## Praat scripting basics: maths
+
+```praat
+a = 3
+b = 4
+
+writeInfoLine: 3 + 4
+```
+
+## Praat scripting basics: for loops
+
+```praat
+clearinfo
+
+for num from 1 to 10
+  appendInfoLine: num
+endfor
+```
+
+## Praat scripting: listing directories
+
+```praat
+
+```
