@@ -27,7 +27,7 @@ This script outputs sound files for each utterance (it extracts parts of the sou
 
 ### Get a transcript for each utterance sound file
 
-We need now a trascript for each uttarance. We can use the [BAS web services](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface). Specifically the [Automatic Speech Recognition](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR) (ASR) service: <https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR>.
+We need now a trascript for each utterance. We can use the [BAS web services](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface). Specifically the [Automatic Speech Recognition](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR) (ASR) service: <https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR>.
 
 You will have to sign in with your university account to access this service.
 
