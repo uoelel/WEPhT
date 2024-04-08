@@ -7,8 +7,10 @@ Below you can find an overview of the processing steps you will learn about in t
 Links to the slides:
 
 - [Session 1](slides/session-1/index.html)
-- [Session 2]
-- [Session 3]
+- [Session 2](slides/session-2/index.html)
+- [Session 3](slides/session-3/index.html)
+
+Download the materials from the [Releases](https://github.com/uoelel/WEPhT/releases) page.
 
 # Processing overview
 
