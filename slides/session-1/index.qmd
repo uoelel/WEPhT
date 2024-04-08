@@ -2,7 +2,9 @@
 title: "Workshop on Experimental Phonetics Tools (WEPhT)"
 subtitle: "Session 1"
 author: "Stefano Coretta"
-format: mono-light-revealjs
+format:
+  mono-light-revealjs:
+    history: false
 syntax-definitions: [../praat.xml]
 filters: 
   - tachyonsextra
