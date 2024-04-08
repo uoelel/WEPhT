@@ -9,7 +9,7 @@
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/tachyonsextra-0.0.1/tachyonsextra.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.552">
+  <meta name="generator" content="quarto-1.4.553">
 
   <meta name="author" content="Stefano Coretta">
   <title>Workshop on Experimental Phonetics Tools (WEPhT)</title>
@@ -681,6 +681,23 @@ Stefano Coretta
 <span id="cb13-62"><a href=""></a></span>
 <span id="cb13-63"><a href=""></a>  .return$ <span class="op">=</span> .zeroPrefix$ <span class="op">+</span> .num$</span>
 <span id="cb13-64"><a href=""></a><span class="kw">endproc</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="get-a-transcript-for-each-utterance-sound-file" class="slide level2">
+<h2>Get a transcript for each utterance sound file</h2>
+<p>✅ – <strong>Run the ASR BAS web service.</strong></p>
+<div class="box-tip">
+<ul>
+<li><p>Go to <a href="https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR" class="uri">https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR</a> and log in with your Uni shibboleth.</p></li>
+<li><p>Drop the <code>.wav</code> files in the files drop area and click “Upload”. The set the following:</p>
+<ul>
+<li>Language to `Swahili (Kenya)’.</li>
+<li>ASR service to <code>Google Speech Cloud ASR</code>.</li>
+</ul></li>
+<li><p>Accept the terms and click on “Run web service” to run the service.</p></li>
+<li><p>Download the resulting files (they will be zipped) and then move the trascripts in each speaker’s folder in <code>data/swahili/swah1253</code>. (With a lot of speakers and files, which should be the standard, you might want to script copying these files so you don’t have to do it manually),</p></li>
+<li><p>Ideally, you would also check and fix the trascripts if needed (we are not gonna do that now).</p></li>
+</ul>
+</div>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 

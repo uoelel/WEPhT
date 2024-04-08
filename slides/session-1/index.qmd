@@ -220,7 +220,7 @@ endfor
 
 ## Praat scripting: read files
 
-✅ - Create a new Praat script and save it as `02_chunk.praat` in the `code/` folder.
+✅ - **Create a new Praat script and save it as `02_chunk.praat` in the `code/` folder.**
 
 ```praat
 raw$ = "../data/swahili/swah1253_long"
@@ -321,3 +321,23 @@ procedure zeroPadding: .num, .numZeros
   .return$ = .zeroPrefix$ + .num$
 endproc
 ```
+
+## Get a transcript for each utterance sound file
+
+✅ -- **Run the ASR BAS web service.**
+
+::: box-tip
+
+- Go to <https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR> and log in with your Uni shibboleth.
+
+- Drop the `.wav` files in the files drop area and click "Upload". The set the following:
+
+  - Language to `Swahili (Kenya)'.
+  - ASR service to `Google Speech Cloud ASR`.
+
+- Accept the terms and click on "Run web service" to run the service.
+
+- Download the resulting files (they will be zipped) and then move the trascripts in each speaker's folder in `data/swahili/swah1253`. (With a lot of speakers and files, which should be the standard, you might want to script copying these files so you don't have to do it manually),
+
+- Ideally, you would also check and fix the trascripts if needed (we are not gonna do that now).
+:::
