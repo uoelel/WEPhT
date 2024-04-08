@@ -1,3 +1,15 @@
+# WEPhT
+
+This is the website of the **WEPhT** workshop (Workshop on Experimental Phonetics Tools).
+
+Below you can find an overview of the processing steps you will learn about in this workshop.
+
+Links to the slides:
+
+- [Session 1](slides/session-1/index.html)
+- [Session 2]
+- [Session 3]
+
 # Processing overview
 
 ## Swahili
