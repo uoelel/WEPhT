@@ -1,0 +1,75 @@
+---
+title: "Workshop on Experimental Phonetics Tools (WEPhT)"
+subtitle: "Session 2"
+author: "Stefano Coretta"
+format:
+  mono-light-revealjs:
+    history: false
+syntax-definitions: [../praat.xml]
+filters: 
+  - tachyonsextra
+---
+
+## Overview
+
+::: box-note
+**Session 1**
+
+- Praat: Detect voice activity
+
+- Praat: Split long file into individual utterances
+
+- BAS: ASR
+
+- Praat: Text to TextGrid
+:::
+
+::: box-tip
+**Session 2**
+
+- MFA: align
+
+- Praat: Fix alignment
+:::
+
+::: box-warning
+**Session 3**
+
+- Using FastTrack to extract formant measures and f0.
+
+- Extract other phonetic measurements.
+:::
+
+## Force-alignment
+
+::: box-note
+
+**Force-alignment** is the process of creating a time-aligned phonetic annotation of audio files.
+
+- Sentence level, word level, phone level annotations.
+
+- [Montreal Force Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/index.html).
+
+:::
+
+. . .
+
+✅ -- **Align the transcripts and segment words with MFA.**
+
+## Live coding
+
+::: box-tip
+
+- Open terminal/command line.
+
+- Navigate to the WEPhT folder with `cd`.
+
+- Activate the conda environment with `conda activate mfa`.
+
+- Run the following
+
+```bash
+mfa align --include_original_text --fine_tune data/swahili/swah1253 swahili_mfa swahili_mfa data/swahili/swah1253
+```
+
+:::
