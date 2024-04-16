@@ -4,6 +4,7 @@ subtitle: "Session 2"
 author: "Stefano Coretta"
 format:
   mono-light-revealjs:
+    theme: [default, ../custom.scss]
     history: false
 syntax-definitions: [../praat.xml]
 filters: 

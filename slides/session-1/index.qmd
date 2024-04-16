@@ -4,6 +4,7 @@ subtitle: "Session 1"
 author: "Stefano Coretta"
 format:
   mono-light-revealjs:
+    theme: [default, ../custom.scss]
     history: false
 syntax-definitions: [../praat.xml]
 filters: 
@@ -44,19 +45,15 @@ filters:
 
 ::: box-tip
 
-- Latest version of Praat.
+- Latest version of [Praat](https://www.fon.hum.uva.nl/praat/).
 
-- Montreal Forced Aligner.
+- [Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/).
 
-- FastTrack.
+- [FastTrack](https://github.com/santiagobarreda/FastTrack).
 
-- Workshop files.
+- [Workshop files](https://github.com/uoelel/WEPhT/releases).
 
 :::
-
-## Praat scripting
-
-...
 
 ## Praat scripting basics: hello
 
