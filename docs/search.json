@@ -1,0 +1,240 @@
+[
+  {
+    "objectID": "data/mawayana/mapi1252_long/LICENSE.html",
+    "href": "data/mawayana/mapi1252_long/LICENSE.html",
+    "title": "WEPhT",
+    "section": "",
+    "text": "This work is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/\nWhen using these files, please use the following citation (the provided .wav file and trascription is an extract of the original recording cited below).\nDr. Eithne Carlin (Date unknown). File “mzx012IguanaAUD.wav” in collection “Leiden Archives”, bundle “Iguana”. The Language Archive. https://hdl.handle.net/1839/00-0000-0000-0009-5E97-0."
+  },
+  {
+    "objectID": "slides/session-1.html#overview",
+    "href": "slides/session-1.html#overview",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Overview",
+    "text": "Overview\n\nSession 1\n\nPraat: Detect voice activity\nPraat: Split long file into individual utterances\nBAS: ASR\nPraat: Text to TextGrid\n\n\n\nSession 2\n\nMFA: align\nPraat: Fix alignment\n\n\n\nSession 3\n\nUsing FastTrack to extract formant measures and f0.\nExtract other phonetic measurements."
+  },
+  {
+    "objectID": "slides/session-1.html#set-up",
+    "href": "slides/session-1.html#set-up",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Set up",
+    "text": "Set up\n\n\nLatest version of Praat.\nMontreal Forced Aligner.\nFastTrack.\nWorkshop files."
+  },
+  {
+    "objectID": "slides/session-1.html#praat-scripting-basics-hello",
+    "href": "slides/session-1.html#praat-scripting-basics-hello",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Praat scripting basics: hello",
+    "text": "Praat scripting basics: hello\nwriteInfoLine: \"Hello!\""
+  },
+  {
+    "objectID": "slides/session-1.html#praat-scripting-basics-strings",
+    "href": "slides/session-1.html#praat-scripting-basics-strings",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Praat scripting basics: strings",
+    "text": "Praat scripting basics: strings\nsent$ = \"Hello!\"\n\nwriteInfoLine: sent$"
+  },
+  {
+    "objectID": "slides/session-1.html#praat-scripting-basics-string-interpolation",
+    "href": "slides/session-1.html#praat-scripting-basics-string-interpolation",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Praat scripting basics: string interpolation",
+    "text": "Praat scripting basics: string interpolation\nname$ = \"Stefano\"\n\nwriteInfoLine: \"Hello, 'name$'!\""
+  },
+  {
+    "objectID": "slides/session-1.html#praat-scripting-basics-overwrite",
+    "href": "slides/session-1.html#praat-scripting-basics-overwrite",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Praat scripting basics: overwrite",
+    "text": "Praat scripting basics: overwrite\nname$ = \"Stefano\"\n\nwriteInfoLine: \"Hello, 'name$'!\"\nwriteInfoLine: \"How are you?\""
+  },
+  {
+    "objectID": "slides/session-1.html#praat-scripting-basics-append",
+    "href": "slides/session-1.html#praat-scripting-basics-append",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Praat scripting basics: append",
+    "text": "Praat scripting basics: append\nname$ = \"Stefano\"\n\nwriteInfoLine: \"Hello, 'name$'!\"\nappendInfoLine: \"How are you?\""
+  },
+  {
+    "objectID": "slides/session-1.html#praat-scripting-basics-maths",
+    "href": "slides/session-1.html#praat-scripting-basics-maths",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Praat scripting basics: maths",
+    "text": "Praat scripting basics: maths\na = 3\nb = 4\n\nwriteInfoLine: 3 + 4"
+  },
+  {
+    "objectID": "slides/session-1.html#praat-scripting-basics-for-loops",
+    "href": "slides/session-1.html#praat-scripting-basics-for-loops",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Praat scripting basics: for loops",
+    "text": "Praat scripting basics: for loops\nclearinfo\n\nfor num from 1 to 10\n  appendInfoLine: num\nendfor"
+  },
+  {
+    "objectID": "slides/session-1.html#praat-scripting-listing-directories",
+    "href": "slides/session-1.html#praat-scripting-listing-directories",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Praat scripting: listing directories",
+    "text": "Praat scripting: listing directories\n✅ - Create a new Praat script and save it as 01_vad.praat in the code/ folder.\nraw$ = \"../data/swahili/swah1253_long\"\n\nCreate Strings as directory list: \"dir_list\", raw$"
+  },
+  {
+    "objectID": "slides/session-1.html#praat-scripting-loop-through-directories",
+    "href": "slides/session-1.html#praat-scripting-loop-through-directories",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Praat scripting: loop through directories",
+    "text": "Praat scripting: loop through directories\nraw$ = \"../data/swahili/swah1253_long\"\n\ndirs = Create Strings as directory list: \"dir_list\", raw$\ndirs_n = Get number of strings\n\nclearinfo\n\n# Loop through directories\nfor dir from 1 to dirs_n\n  selectObject: dirs\n  dir$ = Get string: dir\n\n  appendInfoLine: dir$\nendfor"
+  },
+  {
+    "objectID": "slides/session-1.html#praat-scripting-looping-through-files",
+    "href": "slides/session-1.html#praat-scripting-looping-through-files",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Praat scripting: looping through files",
+    "text": "Praat scripting: looping through files\nraw$ = \"../data/swahili/swah1253_long\"\n\ndirs = Create Strings as directory list: \"dir_list\", raw$\ndirs_n = Get number of strings\n\n# Loop through directories\nfor dir from 1 to dirs_n\n  selectObject: dirs\n  dir$ = Get string: dir\n\n  files = Create Strings as file list: \"file_list\", \"'raw$'/'dir$'/*.wav\"\n  files_n = Get number of strings\n\n  clearinfo\n\n  # Loop through files in each directory\n  for file from 1 to files_n\n    selectObject: files\n    file$ = Get string: file\n\n    appendInfoLine: file$\n\n  endfor\nendfor"
+  },
+  {
+    "objectID": "slides/session-1.html#chunking-long-recordings",
+    "href": "slides/session-1.html#chunking-long-recordings",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Chunking long recordings",
+    "text": "Chunking long recordings\n\nUsing voice activity detection (VAD) in Praat.\nScript 01_vad.praat."
+  },
+  {
+    "objectID": "slides/session-1.html#vad.praat",
+    "href": "slides/session-1.html#vad.praat",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "01_vad.praat",
+    "text": "01_vad.praat\nraw$ = \"../data/swahili/swah1253_long\"\n\ndirs = Create Strings as directory list: \"dir_list\", raw$\ndirs_n = Get number of strings\n\n# Loop through directories\nfor dir from 1 to dirs_n\n  selectObject: dirs\n  dir$ = Get string: dir\n\n  files = Create Strings as file list: \"file_list\", \"'raw$'/'dir$'/*.wav\"\n  files_n = Get number of strings\n\n  # Loop through files in each directory\n  for file from 1 to files_n\n    selectObject: files\n    file$ = Get string: file\n\n    file_name$ = file$ - \".wav\"\n    wav = Read from file: \"'raw$'/'dir$'/'file$'\"\n\n    # Using -40 instead of -25 for silence threashold\n    tg = To TextGrid (silences): 100, 0, -40, 0.1, 0.1, \"silent\", \"sounding\"\n\n    Save as text file: \"'raw$'/'dir$'/'file_name$'.TextGrid\"\n  endfor\nendfor\n✅ – Run the code/01_vad.praat script in Praat."
+  },
+  {
+    "objectID": "slides/session-1.html#fixing-the-detected-intervals",
+    "href": "slides/session-1.html#fixing-the-detected-intervals",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Fixing the detected intervals",
+    "text": "Fixing the detected intervals\n✅ – Fix each TextGrid and save them to a new file (don’t overwrite the original TextGrids!). Name the fixed TextGrid with the same name as the original plus -fixed."
+  },
+  {
+    "objectID": "slides/session-1.html#praat-scripting-read-files",
+    "href": "slides/session-1.html#praat-scripting-read-files",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Praat scripting: read files",
+    "text": "Praat scripting: read files\n✅ - Create a new Praat script and save it as 02_chunk.praat in the code/ folder.\nraw$ = \"../data/swahili/swah1253_long\"\nderived$ = \"../data/swahili/swah1253\"\ncreateFolder: derived$\n\ndirs = Create Strings as directory list: \"dir_list\", raw$\ndirs_n = Get number of strings\n\n# Loop through directories\nfor dir from 1 to dirs_n\n  selectObject: dirs\n  dir$ = Get string: dir\n\n  createFolder: \"'derived$'/'dir$'\"\n\n  files = Create Strings as file list: \"file_list\", \"'raw$'/'dir$'/*.wav\"\n  files_n = Get number of strings\n\n  # Loop through files in each directory\n  for file from 1 to files_n\n    selectObject: files\n    file$ = Get string: file\n\n    file_name$ = file$ - \".wav\"\n    wav = Read from file: \"'raw$'/'dir$'/'file$'\"\n\n    tg = Read from file: \"'raw$'/'dir$'/'file_name$'-fixed.TextGrid\"\n  endfor\nendfor"
+  },
+  {
+    "objectID": "slides/session-1.html#chunk-long-recordings",
+    "href": "slides/session-1.html#chunk-long-recordings",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Chunk long recordings",
+    "text": "Chunk long recordings\nraw$ = \"../data/swahili/swah1253_long\"\nderived$ = \"../data/swahili/swah1253\"\ncreateFolder: derived$\n\ndirs = Create Strings as directory list: \"dir_list\", raw$\ndirs_n = Get number of strings\n\n# Loop through directories\nfor dir from 1 to dirs_n\n  selectObject: dirs\n  dir$ = Get string: dir\n\n  createFolder: \"'derived$'/'dir$'\"\n\n  files = Create Strings as file list: \"file_list\", \"'raw$'/'dir$'/*.wav\"\n  files_n = Get number of strings\n\n  # Loop through files in each directory\n  for file from 1 to files_n\n    selectObject: files\n    file$ = Get string: file\n    file_name$ = file$ - \".wav\"\n    wav = Read from file: \"'raw$'/'dir$'/'file$'\"\n    tg = Read from file: \"'raw$'/'dir$'/'file_name$'-fixed.TextGrid\"\n\n    selectObject: tg\n    int_n = Get number of intervals: 1\n\n    for int from 1 to int_n\n      selectObject: tg\n      int$ = Get label of interval: 1, int\n\n      if int$ == \"sounding\"\n        int_start = Get start time of interval: 1, int\n        int_end = Get end time of interval: 1, int\n\n        selectObject: wav\n        wav_part = Extract part: int_start - 0.1, int_end + 0.1, \"rectangular\", 1, \"no\"\n\n        @zeroPadding: int, 3\n        Save as WAV file: \"'derived$'/'dir$'/'file_name$'-'zeroPadding.return$'.wav\"\n      endif\n    endfor\n  endfor\nendfor\n\n# Procedure to pad zeros in file names indeces\nprocedure zeroPadding: .num, .numZeros\n  .highestVal = 10 ^ .numZeros\n\n  .num$ = string$: .num\n  .numLen = length: .num$\n\n  .numToAdd = .numZeros - .numLen\n\n  .zeroPrefix$ = \"\"\n  if .numToAdd &gt; 0\n      for i from 1 to .numToAdd\n          .zeroPrefix$ = .zeroPrefix$ + \"0\"\n      endfor\n  endif\n\n  .return$ = .zeroPrefix$ + .num$\nendproc"
+  },
+  {
+    "objectID": "slides/session-1.html#get-a-transcript-for-each-utterance-sound-file",
+    "href": "slides/session-1.html#get-a-transcript-for-each-utterance-sound-file",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Get a transcript for each utterance sound file",
+    "text": "Get a transcript for each utterance sound file\n✅ – Run the ASR BAS web service.\n\n\nGo to https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR and log in with your Uni shibboleth.\nDrop the .wav files in the files drop area and click “Upload”. The set the following:\n\nLanguage to `Swahili (Kenya)’.\nASR service to Google Speech Cloud ASR.\n\nAccept the terms and click on “Run web service” to run the service.\nDownload the resulting files (they will be zipped) and then move the trascripts in each speaker’s folder in data/swahili/swah1253. (With a lot of speakers and files, which should be the standard, you might want to script copying these files so you don’t have to do it manually),\nIdeally, you would also check and fix the trascripts if needed (we are not gonna do that now)."
+  },
+  {
+    "objectID": "slides/session-2.html#overview",
+    "href": "slides/session-2.html#overview",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Overview",
+    "text": "Overview\n\nSession 1\n\nPraat: Detect voice activity\nPraat: Split long file into individual utterances\nBAS: ASR\nPraat: Text to TextGrid\n\n\n\nSession 2\n\nMFA: align\nPraat: Fix alignment\n\n\n\nSession 3\n\nUsing FastTrack to extract formant measures and f0.\nExtract other phonetic measurements."
+  },
+  {
+    "objectID": "slides/session-2.html#force-alignment",
+    "href": "slides/session-2.html#force-alignment",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Force-alignment",
+    "text": "Force-alignment\n\nForce-alignment is the process of creating a time-aligned phonetic annotation of audio files.\n\nSentence level, word level, phone level annotations.\nMontreal Force Aligner.\n\n\n\n✅ – Align the transcripts and segment words with MFA."
+  },
+  {
+    "objectID": "slides/session-2.html#live-coding",
+    "href": "slides/session-2.html#live-coding",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Live coding",
+    "text": "Live coding\n\n\nOpen terminal/command line.\nNavigate to the WEPhT folder with cd.\nActivate the conda environment with conda activate mfa.\nRun the following\n\nmfa align --include_original_text --fine_tune data/swahili/swah1253 swahili_mfa swahili_mfa data/swahili/swah1253"
+  },
+  {
+    "objectID": "overview.html",
+    "href": "overview.html",
+    "title": "Processing overview",
+    "section": "",
+    "text": "The Swahili recordings are in data/swahili/swah1253_long. Folders within that are individual speakers and each speaker has a single recording containing several utterances.\n\n\nThe first step is to extract individual sound files for each utterance in each speaker’s long recording.\nWe can achieve this by first detecting voice activity in the recording and then extracting the detected parts as individual sound files using Praat.\n✅ – Run the code/01_vad.praat script in Praat.\nThis script outputs one TextGrid per long recording with intervals corresponding to detected voice activity. The TextGrids are saved in data/swahili/swah1253_long, in each speaker’s folder, named after the recording file name.\nNow we can fix the detected intervals (sometimes, noises are mistakenly interpreted as voice).\n✅ – Fix each TextGrid and save them to a new file (don’t overwrite the original TextGrids!). Name the fixed TextGrid with the same name as the original plus -fixed.\nNow that we have fixed the voice activity TextGrids, we can run the script code/02_chunk.praat to extract individual utterances.\n✅ – Run code/02_chunk.praat in Praat.\nThis script outputs sound files for each utterance (it extracts parts of the sound file corresponding to the intervals with label “sounding”). These files are saved in data/swahili/swah1253, in each speaker’s folder. These sound files are named after the original long sound file plus -ID where “ID” is the interval number from the TextGrid.\n\n\n\nWe need now a trascript for each utterance. We can use the BAS web services. Specifically the Automatic Speech Recognition (ASR) service: https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR.\nYou will have to sign in with your university account to access this service.\nOnce logged in, drop the .wav files in the files drop area and click “Upload”. The set the following:\n\nLanguage to `Swahili (Kenya)’.\nASR service to Google Speech Cloud ASR.\n\nThen accept the terms and click on “Run web service” to run the service.\n✅ – Run the ASR BAS web service.\nDownload the resulting files (they will be zipped) and then move the trascripts in each speaker’s folder in data/swahili/swah1253. (With a lot of speakers and files, which should be the standard, you might want to script copying these files so you don’t have to do it manually),\nIdeally, you would also check and fix the trascripts if needed (we are not gonna do that now).\n\n\n\nWe can finally force-align the trascripts to the sound files using the Montreal Force Aligner.\nActivate the conda environment.\nconda activate mfa\n✅ – Align the transcripts and segment words with MFA.\nmfa align --include_original_text --fine_tune data/swahili/swah1253 swahili_mfa swahili_mfa data/swahili/swah1253\nThe --include_original_text flag ensures the original utterance text is added in full in the aligned TextGrid. The --fine_tune flag ensures alignment precision to be up to 1 ms (rather than the default 10 ms; this is useful for most research aims).\nNow the data/swahili/swah1253 has TextGrids with the word-by-word and segment-by-segment alignments!\n\n\n\nOpen any wav file in Praat. Select Tools... under Fast Track and then select Extract vowels with TextGrids. A new window will open.\n✅ – Extract the vowels for each speaker separately using the Extract vowels with TextGrids tool.\nAs the output folder, use data/swahili/swah1253_vowels. The script will extract vowel sounds into a sounds folder in each speaker’s folder in swah1253_vowels.\nNow we can track the formants. This has to be done speaker by speaker, using the Track folder (lite)... option.\n✅ – Get formants for each speaker with Track folder (lite)....\nThe results are in processed_data/aggregated_data.csv, within each speaker’s folder.\n\n\n\nWe now move onto getting the Centre of Gravity (CoG) of fricatives.\n✅ – Run code/03_get_measures.praat.\nA file data/swahili/fricatives.csv will be created.\n\n\n\n\nThis example illustrates how to use the BAS services to obtain a rough force-alignement of languages that are not supported.\nWe have prepared a TextGrid with intervals marking different utterances in data/mawayana/mapi1252_long/yapoma_iguana.wav and a text file with each segmented utterance in a new line.\n\n\n✅ – Run code/02_chunk_txt.praat in Praat.\nThis script chunks the long file into separate files for each utterance and outputs the correponding transcription as a text file, in data/mawayana/mapi1252/.\n\n\n\nWe will use the Pipeline without ASR service: https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/Pipeline.\n✅ – Upload the .wav and .txt files from data/mawayana/mapi1252/ to the web page.\n✅ – Set the following options:\n\nAs the Pipeline name, select G2P-&gt;MAUS.\nAs the language, select Language Independent (X-Sampa).\nClick on Expert options and next to Imap mapping file (G2P) click on Choose file. Upload the data/mawayana/mapi1252_long/mwz_map.txt file.\n\nThe mwz_map.txt is a special file that contains grapheme/phoneme correspondences and it is used by the BAS G2P (grapheme-to-phoneme) service which converts transcripts to X-Sampa transcriptions.\n✅ – Agree to the terms and run the service.\nYou will be able to download the force-aligned TextGrids once the service is done."
+  },
+  {
+    "objectID": "overview.html#swahili",
+    "href": "overview.html#swahili",
+    "title": "Processing overview",
+    "section": "",
+    "text": "The Swahili recordings are in data/swahili/swah1253_long. Folders within that are individual speakers and each speaker has a single recording containing several utterances.\n\n\nThe first step is to extract individual sound files for each utterance in each speaker’s long recording.\nWe can achieve this by first detecting voice activity in the recording and then extracting the detected parts as individual sound files using Praat.\n✅ – Run the code/01_vad.praat script in Praat.\nThis script outputs one TextGrid per long recording with intervals corresponding to detected voice activity. The TextGrids are saved in data/swahili/swah1253_long, in each speaker’s folder, named after the recording file name.\nNow we can fix the detected intervals (sometimes, noises are mistakenly interpreted as voice).\n✅ – Fix each TextGrid and save them to a new file (don’t overwrite the original TextGrids!). Name the fixed TextGrid with the same name as the original plus -fixed.\nNow that we have fixed the voice activity TextGrids, we can run the script code/02_chunk.praat to extract individual utterances.\n✅ – Run code/02_chunk.praat in Praat.\nThis script outputs sound files for each utterance (it extracts parts of the sound file corresponding to the intervals with label “sounding”). These files are saved in data/swahili/swah1253, in each speaker’s folder. These sound files are named after the original long sound file plus -ID where “ID” is the interval number from the TextGrid.\n\n\n\nWe need now a trascript for each utterance. We can use the BAS web services. Specifically the Automatic Speech Recognition (ASR) service: https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR.\nYou will have to sign in with your university account to access this service.\nOnce logged in, drop the .wav files in the files drop area and click “Upload”. The set the following:\n\nLanguage to `Swahili (Kenya)’.\nASR service to Google Speech Cloud ASR.\n\nThen accept the terms and click on “Run web service” to run the service.\n✅ – Run the ASR BAS web service.\nDownload the resulting files (they will be zipped) and then move the trascripts in each speaker’s folder in data/swahili/swah1253. (With a lot of speakers and files, which should be the standard, you might want to script copying these files so you don’t have to do it manually),\nIdeally, you would also check and fix the trascripts if needed (we are not gonna do that now).\n\n\n\nWe can finally force-align the trascripts to the sound files using the Montreal Force Aligner.\nActivate the conda environment.\nconda activate mfa\n✅ – Align the transcripts and segment words with MFA.\nmfa align --include_original_text --fine_tune data/swahili/swah1253 swahili_mfa swahili_mfa data/swahili/swah1253\nThe --include_original_text flag ensures the original utterance text is added in full in the aligned TextGrid. The --fine_tune flag ensures alignment precision to be up to 1 ms (rather than the default 10 ms; this is useful for most research aims).\nNow the data/swahili/swah1253 has TextGrids with the word-by-word and segment-by-segment alignments!\n\n\n\nOpen any wav file in Praat. Select Tools... under Fast Track and then select Extract vowels with TextGrids. A new window will open.\n✅ – Extract the vowels for each speaker separately using the Extract vowels with TextGrids tool.\nAs the output folder, use data/swahili/swah1253_vowels. The script will extract vowel sounds into a sounds folder in each speaker’s folder in swah1253_vowels.\nNow we can track the formants. This has to be done speaker by speaker, using the Track folder (lite)... option.\n✅ – Get formants for each speaker with Track folder (lite)....\nThe results are in processed_data/aggregated_data.csv, within each speaker’s folder.\n\n\n\nWe now move onto getting the Centre of Gravity (CoG) of fricatives.\n✅ – Run code/03_get_measures.praat.\nA file data/swahili/fricatives.csv will be created."
+  },
+  {
+    "objectID": "overview.html#mawayana",
+    "href": "overview.html#mawayana",
+    "title": "Processing overview",
+    "section": "",
+    "text": "This example illustrates how to use the BAS services to obtain a rough force-alignement of languages that are not supported.\nWe have prepared a TextGrid with intervals marking different utterances in data/mawayana/mapi1252_long/yapoma_iguana.wav and a text file with each segmented utterance in a new line.\n\n\n✅ – Run code/02_chunk_txt.praat in Praat.\nThis script chunks the long file into separate files for each utterance and outputs the correponding transcription as a text file, in data/mawayana/mapi1252/.\n\n\n\nWe will use the Pipeline without ASR service: https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/Pipeline.\n✅ – Upload the .wav and .txt files from data/mawayana/mapi1252/ to the web page.\n✅ – Set the following options:\n\nAs the Pipeline name, select G2P-&gt;MAUS.\nAs the language, select Language Independent (X-Sampa).\nClick on Expert options and next to Imap mapping file (G2P) click on Choose file. Upload the data/mawayana/mapi1252_long/mwz_map.txt file.\n\nThe mwz_map.txt is a special file that contains grapheme/phoneme correspondences and it is used by the BAS G2P (grapheme-to-phoneme) service which converts transcripts to X-Sampa transcriptions.\n✅ – Agree to the terms and run the service.\nYou will be able to download the force-aligned TextGrids once the service is done."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "WEPhT",
+    "section": "",
+    "text": "Welcome to the website of the Workshop on Experimental Phonetics Tools."
+  },
+  {
+    "objectID": "slides/session-3.html#extract-vowel-formants-and-f0-with-fasttrack",
+    "href": "slides/session-3.html#extract-vowel-formants-and-f0-with-fasttrack",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Extract vowel formants and f0 with FastTrack",
+    "text": "Extract vowel formants and f0 with FastTrack\n\nFastTrack is a Praat plugin to more obtain more accurate formant and f0 measurements.\n\nInstall from https://github.com/santiagobarreda/FastTrack.\nTwo steps\n\nExtract audio parts containing vowels.\nTrack formants in those audio parts."
+  },
+  {
+    "objectID": "slides/session-3.html#live-coding",
+    "href": "slides/session-3.html#live-coding",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Live coding",
+    "text": "Live coding\n\n\nOpen any sound file in Praat.\nSelect Tools... under Fast Track and then select Extract vowels with TextGrids.\n\n✅ – Extract the vowels for each speaker separately using the Extract vowels with TextGrids tool.\n\nAs the output folder, use data/swahili/swah1253_vowels.\n\n✅ – Get formants for each speaker with Track folder (lite)....\n\nThe results are in processed_data/aggregated_data.csv, within each speaker’s folder."
+  },
+  {
+    "objectID": "slides/session-3.html#extract-other-measurements",
+    "href": "slides/session-3.html#extract-other-measurements",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Extract other measurements",
+    "text": "Extract other measurements\n\nLet’s extract the Centre of Gravity (COG) and duration of fricatives.\n\n✅ – Create a file code/03_get_measures.praat."
+  },
+  {
+    "objectID": "slides/session-3.html#looping-through-phones",
+    "href": "slides/session-3.html#looping-through-phones",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Looping through phones",
+    "text": "Looping through phones\nword_tier = 1\nphon_tier = 2\nsentence_tier = 3\n\ndir$ = \"../data/swahili/swah1253\"\n\nresults_header$ = \"file,sentence,word,consonant,cog,duration,prev,foll\"\nresults$ = \"../data/swahili/fricatives.csv\"\nwriteFileLine: results$, results_header$\n\ndir_list = Create Strings as folder list: \"dir_list\", dir$\ndir_n = Get number of strings\n\n# Loop through speaker folders\nfor sp from 1 to dir_n\n  selectObject: dir_list\n  speaker$ = Get string: sp\n  wav_list = Create Strings as file list: \"wav_list\", \"'dir$'/'speaker$'/*.wav\"\n  wav_n = Get number of strings\n\n  # Loop through speaker files\n  for wav from 1 to wav_n\n    selectObject: wav_list\n    wav$ = Get string: wav\n    wav_basename$ = wav$ - \".wav\"\n    this_wav = Read from file: \"'dir$'/'speaker$'/'wav$'\"\n    this_tg = Read from file: \"'dir$'/'speaker$'/'wav_basename$'.TextGrid\"\n    ph_n = Get number of intervals: phon_tier\n\n    sent$ = Get label of interval: sentence_tier, 1\n\n    # Loop through phones in TG\n    for ph from 1 to ph_n\n      selectObject: this_tg\n      ph$ = Get label of interval: phon_tier, ph\n\n      # Detect fricatives and exclude affricate /tʃ/ and &lt;spn&gt;\n      if index_regex(ph$, \"[fvθðszʃh]\") &gt; 0 and length(ph$) == 1\n        ph_start = Get start time of interval: phon_tier, ph\n        ph_end = Get end time of interval: phon_tier, ph\n        ph_duration = ph_end - ph_start\n        \n        # COG code\n        # prev/foll code\n      endif\n\n    endfor\n\n    \n  endfor\n\nendfor"
+  },
+  {
+    "objectID": "slides/session-3.html#get-cog",
+    "href": "slides/session-3.html#get-cog",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Get COG",
+    "text": "Get COG\nfor ph from 1 to ph_n\n  ...\n\n  # COG code\n  wd = Get interval at time: word_tier, ph_start\n  wd$ = Get label of interval: word_tier, wd\n\n  selectObject: this_wav\n  ph_part = Extract part: ph_start, ph_end, \"rectangular\", 1, \"no\"\n  ph_part_spec = To Spectrum: \"no\"\n  ph_part_spec_smooth = Cepstral smoothing: 200\n  cog = Get centre of gravity: 2\n\n  # Output measurements\n  results_line$ = \"'wav_basename$','sent$','wd$','ph$','cog','ph_duration','prev_ph$','foll_ph$'\"\n  appendFileLine: results$, results_line$\n\n  ...\n\nendfor"
+  },
+  {
+    "objectID": "slides/session-3.html#get-previous-and-following-phone",
+    "href": "slides/session-3.html#get-previous-and-following-phone",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "Get previous and following phone",
+    "text": "Get previous and following phone\nfor ph from 1 to ph_n\n  ...\n\n  # prev/foll code\n  if ph = 1\n    prev_ph$ = \"#\"\n    foll_ph$ = Get label of interval: phon_tier, ph + 1\n  elsif ph = ph_n\n    prev_ph$ = Get label of interval: phon_tier, ph - 1\n    foll_ph$ = \"#\"\n  else\n    prev_ph$ = Get label of interval: phon_tier, ph - 1\n    if prev_ph$ == \"\"\n      prev_ph$ = \"#\"\n    endif\n    foll_ph$ = Get label of interval: phon_tier, ph + 1\n    if foll_ph$ == \"\"\n      foll_ph$ = \"#\"\n    endif\n  endif\n\n  ...\n\nendfor"
+  },
+  {
+    "objectID": "slides/session-3.html#get_measures.praat",
+    "href": "slides/session-3.html#get_measures.praat",
+    "title": "Workshop on Experimental Phonetics Tools (WEPhT)",
+    "section": "03_get_measures.praat",
+    "text": "03_get_measures.praat\nword_tier = 1\nphon_tier = 2\nsentence_tier = 3\n\ndir$ = \"../data/swahili/swah1253\"\n\nresults_header$ = \"file,sentence,word,consonant,cog,duration,prev,foll\"\nresults$ = \"../data/swahili/fricatives.csv\"\nwriteFileLine: results$, results_header$\n\ndir_list = Create Strings as folder list: \"dir_list\", dir$\ndir_n = Get number of strings\n\n# Loop through speaker folders\nfor sp from 1 to dir_n\n  selectObject: dir_list\n  speaker$ = Get string: sp\n  wav_list = Create Strings as file list: \"wav_list\", \"'dir$'/'speaker$'/*.wav\"\n  wav_n = Get number of strings\n\n  # Loop through speaker files\n  for wav from 1 to wav_n\n    selectObject: wav_list\n    wav$ = Get string: wav\n    wav_basename$ = wav$ - \".wav\"\n    this_wav = Read from file: \"'dir$'/'speaker$'/'wav$'\"\n    this_tg = Read from file: \"'dir$'/'speaker$'/'wav_basename$'.TextGrid\"\n    ph_n = Get number of intervals: phon_tier\n\n    sent$ = Get label of interval: sentence_tier, 1\n\n    # Loop through phones in TG\n    for ph from 1 to ph_n\n      selectObject: this_tg\n      ph$ = Get label of interval: phon_tier, ph\n\n      # Detect fricatives and exclude affricate /tʃ/ and &lt;spn&gt;\n      if index_regex(ph$, \"[fvθðszʃh]\") &gt; 0 and length(ph$) == 1\n        ph_start = Get start time of interval: phon_tier, ph\n        ph_end = Get end time of interval: phon_tier, ph\n        ph_duration = ph_end - ph_start\n\n        # Check that the current phone is not the first or the last interval\n\n        if ph = 1\n          prev_ph$ = \"#\"\n          foll_ph$ = Get label of interval: phon_tier, ph + 1\n        elsif ph = ph_n\n          prev_ph$ = Get label of interval: phon_tier, ph - 1\n          foll_ph$ = \"#\"\n        else\n          prev_ph$ = Get label of interval: phon_tier, ph - 1\n          if prev_ph$ == \"\"\n            prev_ph$ = \"#\"\n          endif\n          foll_ph$ = Get label of interval: phon_tier, ph + 1\n          if foll_ph$ == \"\"\n            foll_ph$ = \"#\"\n          endif\n        endif\n\n        wd = Get interval at time: word_tier, ph_start\n        wd$ = Get label of interval: word_tier, wd\n\n        selectObject: this_wav\n        ph_part = Extract part: ph_start, ph_end, \"rectangular\", 1, \"no\"\n        ph_part_spec = To Spectrum: \"no\"\n        ph_part_spec_smooth = Cepstral smoothing: 200\n        cog = Get centre of gravity: 2\n        \n        # Output measurements\n        results_line$ = \"'wav_basename$','sent$','wd$','ph$','cog','ph_duration','prev_ph$','foll_ph$'\"\n        appendFileLine: results$, results_line$\n      endif\n\n    endfor\n\n    \n  endfor\n\nendfor"
+  },
+  {
+    "objectID": "data/swahili/swah1253_long/LICENCE.html",
+    "href": "data/swahili/swah1253_long/LICENCE.html",
+    "title": "WEPhT",
+    "section": "",
+    "text": "CC BY-SA 3.0 Attribution-ShareAlike 3.0 Unported\nCopyright Mozilla Foundation, https://commonvoice.mozilla.org/en/datasets"
+  }
+]

@@ -1,3 +1,39 @@
 project:
+  type: website
+  output-dir: docs
+  execute-dir: project
+
+execute:
+  freeze: auto
+
+website:
   title: "WEPhT"
+  # favicon: img/favicon.png
+  navbar:
+    background: dark
+    left:
+      - href: index.qmd
+        text: Home
+      - href: overview.qmd
+        text: Processing overview
+      - text: Slides
+        menu:
+          - href: "slides/session-1.qmd"
+            text: "Session 1"
+          - href: "slides/session-2.qmd"
+            text: "Session 2"
+          - href: "slides/session-3.qmd"
+            text: "Session 3"
+
+format:
+  html:
+    theme: united
+    css: styles.css
+    toc: true
+    df-print: paged
+    number-sections: true
+    link-external-newwindow: true
+
+callout-icon: false
+
 
