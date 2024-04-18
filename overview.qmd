@@ -30,7 +30,6 @@ Now that we have fixed the voice activity TextGrids, we can run the script `code
 
 This script outputs sound files for each utterance (it extracts parts of the sound file corresponding to the intervals with label "sounding"). These files are saved in `data/swahili/swah1253`, in each speaker's folder. These sound files are named after the original long sound file plus `-ID` where "ID" is the interval number from the TextGrid.
 
-
 ### Get a transcript for each utterance sound file
 
 We need now a trascript for each utterance. We can use the [BAS web services](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface). Specifically the [Automatic Speech Recognition](https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR) (ASR) service: <https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/ASR>.
@@ -39,35 +38,41 @@ You will have to sign in with your university account to access this service.
 
 Once logged in, drop the `.wav` files in the files drop area and click "Upload". The set the following:
 
-- Language to `Swahili (Kenya)'.
-- ASR service to `Google Speech Cloud ASR`.
+-   Language to \`Swahili (Kenya)'.
+-   ASR service to `Google Speech Cloud ASR`.
 
 Then accept the terms and click on "Run web service" to run the service.
 
 ✅ -- **Run the ASR BAS web service.**
 
-Download the resulting files (they will be zipped) and then move the trascripts in each speaker's folder in `data/swahili/swah1253`. (With a lot of speakers and files, which should be the standard, you might want to script copying these files so you don't have to do it manually),
+Download the resulting files (they will be zipped) and then move the transcripts in each speaker's folder in `data/swahili/swah1253`. (With a lot of speakers and files, which should be the standard, you might want to script copying these files so you don't have to do it manually),
 
-Ideally, you would also check and fix the trascripts if needed (we are not gonna do that now).
+Ideally, you would also check and fix the transcripts if needed (we are not gonna do that now).
 
-### Force-align trascripts to sound files
+### Force-align transcripts to sound files
 
-We can finally force-align the trascripts to the sound files using the [Montreal Force Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/index.html).
+We can finally force-align the transcripts to the sound files using the [Montreal Force Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/index.html).
 
 Activate the conda environment.
 
-```bash
+``` bash
 conda activate mfa
+```
+
+To download the Swahili dictionary and acoustic model, run the following.
+
+``` bash
+mfa model download dictionary swahili_mfa
+mfa model download acoustic swahili_mfa
 ```
 
 ✅ -- **Align the transcripts and segment words with MFA.**
 
-```bash
+``` bash
 mfa align --include_original_text --fine_tune data/swahili/swah1253 swahili_mfa swahili_mfa data/swahili/swah1253
 ```
 
-The `--include_original_text` flag ensures the original utterance text is added in full in the aligned TextGrid.
-The `--fine_tune` flag ensures alignment precision to be up to 1 ms (rather than the default 10 ms; this is useful for most research aims).
+The `--include_original_text` flag ensures the original utterance text is added in full in the aligned TextGrid. The `--fine_tune` flag ensures alignment precision to be up to 1 ms (rather than the default 10 ms; this is useful for most research aims).
 
 Now the `data/swahili/swah1253` has TextGrids with the word-by-word and segment-by-segment alignments!
 
@@ -95,7 +100,7 @@ A file `data/swahili/fricatives.csv` will be created.
 
 ## Mawayana
 
-This example illustrates how to use the BAS services to obtain a rough force-alignement of languages that are not supported.
+This example illustrates how to use the BAS services to obtain a rough force-alignment of languages that are not supported.
 
 We have prepared a TextGrid with intervals marking different utterances in `data/mawayana/mapi1252_long/yapoma_iguana.wav` and a text file with each segmented utterance in a new line.
 
@@ -105,7 +110,7 @@ We have prepared a TextGrid with intervals marking different utterances in `data
 
 This script chunks the long file into separate files for each utterance and outputs the correponding transcription as a text file, in `data/mawayana/mapi1252/`.
 
-### Force-align trascripts to sound files
+### Force-align transcripts to sound files
 
 We will use the Pipeline without ASR service: <https://clarin.phonetik.uni-muenchen.de/BASWebServices/interface/Pipeline>.
 
@@ -113,12 +118,13 @@ We will use the Pipeline without ASR service: <https://clarin.phonetik.uni-muenc
 
 ✅ -- **Set the following options:**
 
-- As the Pipeline name, select `G2P->MAUS`.
-- As the language, select `Language Independent (X-Sampa)`.
-- Click on `Expert options` and next to `Imap mapping file (G2P)` click on `Choose file`. Upload the `data/mawayana/mapi1252_long/mwz_map.txt` file.
+-   As the Pipeline name, select `G2P->MAUS`.
+-   As the language, select `Language Independent (X-Sampa)`.
+-   Click on `Expert options` and next to `Imap mapping file (G2P)` click on `Choose file`. Upload the `data/mawayana/mapi1252_long/mwz_map.txt` file.
 
 The `mwz_map.txt` is a special file that contains grapheme/phoneme correspondences and it is used by the BAS G2P (grapheme-to-phoneme) service which converts transcripts to X-Sampa transcriptions.
 
 ✅ -- **Agree to the terms and run the service.**
 
 You will be able to download the force-aligned TextGrids once the service is done.
+
