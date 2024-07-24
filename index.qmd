@@ -3,3 +3,5 @@ title: "WEPhT"
 ---
 
 Welcome to the website of the *Workshop on Experimental Phonetics Tools*.
+
+All materials can be found at <https://github.com/uoelel/WEPhT>.

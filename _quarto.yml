@@ -24,6 +24,9 @@ website:
             text: "Session 2"
           - href: "slides/session-3.qmd"
             text: "Session 3"
+    tools:
+      - icon: github
+        href: https://github.com/uoelel/WEPhT
 
 format:
   html:

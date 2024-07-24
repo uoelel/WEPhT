@@ -6,6 +6,8 @@ editor: visual
 
 # Processing overview
 
+All materials can be found at <https://github.com/uoelel/WEPhT>.
+
 ## Swahili
 
 The Swahili recordings are in `data/swahili/swah1253_long`. Folders within that are individual speakers and each speaker has a single recording containing several utterances.
@@ -127,4 +129,3 @@ The `mwz_map.txt` is a special file that contains grapheme/phoneme correspondenc
 ✅ -- **Agree to the terms and run the service.**
 
 You will be able to download the force-aligned TextGrids once the service is done.
-
