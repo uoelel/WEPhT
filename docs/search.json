@@ -179,7 +179,7 @@
     "href": "index.html",
     "title": "WEPhT",
     "section": "",
-    "text": "Welcome to the website of the Workshop on Experimental Phonetics Tools.\nAll materials can be found at https://github.com/uoelel/WEPhT."
+    "text": "Welcome to the website of the Workshop on Experimental Phonetics Tools.\nPlease, carefully read the following pre-workshop set-up instructions."
   },
   {
     "objectID": "slides/session-3.html#extract-vowel-formants-and-f0-with-fasttrack",
@@ -236,5 +236,12 @@
     "title": "WEPhT",
     "section": "",
     "text": "CC BY-SA 3.0 Attribution-ShareAlike 3.0 Unported\nCopyright Mozilla Foundation, https://commonvoice.mozilla.org/en/datasets"
+  },
+  {
+    "objectID": "index.html#pre-worshop-set-up",
+    "href": "index.html#pre-worshop-set-up",
+    "title": "WEPhT",
+    "section": "1 Pre-worshop set-up",
+    "text": "1 Pre-worshop set-up\nYou will need to bring your laptop to the workshop with the following software already installed:\n\nLatest version of Praat.\nThe Montreal Forced Aligner.\nThe Praat plugin Fast Track (use the Lazy layout).\n\nPlease, download the workshop materials from https://github.com/uoelel/WEPhT/releases: you should download the WEPhT.zip ZIP archive. Make sure you unzip the archive once it’s downloaded.\nIf you have never used the command line, you can learn the fundamentals here: https://builtin.com/software-engineering-perspectives/terminal-commands."
   }
 ]
